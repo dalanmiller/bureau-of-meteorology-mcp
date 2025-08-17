@@ -5,6 +5,7 @@ description = "MCP server tools for Australian Bureau of Meteorology (BoM) weath
 authors = [{ name = "Contributors" }]
 readme = "README.md"
 requires-python = ">=3.13"
+license = { file = "LICENSE" }
 dependencies = [
   "pytest>=8.2.0",
   "pytest-asyncio>=0.23.0",
