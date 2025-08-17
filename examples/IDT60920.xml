@@ -1,0 +1,1644 @@
+<?xml version="1.0"?>
+<product xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="v1.7.1" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+  <amoc>
+    <source>
+      <sender>Australian Government Bureau of Meteorology</sender>
+      <region>Tasmania</region>
+      <office>TASRO</office>
+      <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+      <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+    </source>
+    <identifier>IDT60920</identifier>
+    <issue-time-utc>2025-08-17T11:31:02+00:00</issue-time-utc>
+    <issue-time-local tz="EST">2025-08-17T21:31:02+10:00</issue-time-local>
+    <sent-time>2025-08-17T11:32:00+00:00</sent-time>
+    <status>O</status>
+    <service>WSP</service>
+    <product-type>O</product-type>
+    <phase>NEW</phase>
+  </amoc>
+  <observations>
+    <station wmo-id="94970" bom-id="094029" tz="Australia/Hobart" stn-name="HOBART (ELLERSLIE ROAD)" stn-height="50.50" type="AWS" lat="-42.8897" lon="147.3278" forecast-district-id="TAS_PW006" description="Hobart">
+      <period index="0" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">1.8</element>
+          <element units="Celsius" type="delta_t">1.6</element>
+          <element units="km/h" type="gust_kmh">11</element>
+          <element units="knots" type="wind_gust_spd">6</element>
+          <element units="Celsius" type="air_temperature">5.0</element>
+          <element units="Celsius" type="dew_point">0.9</element>
+          <element units="hPa" type="pres">1023.8</element>
+          <element units="hPa" type="msl_pres">1023.8</element>
+          <element units="hPa" type="qnh_pres">1023.7</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">75</element>
+          <element type="wind_dir">WNW</element>
+          <element units="deg" type="wind_dir_deg">294</element>
+          <element units="km/h" type="wind_spd_kmh">7</element>
+          <element units="knots" type="wind_spd">4</element>
+          <element start-time-local="2025-08-17T09:00:00+10:00" end-time-local="2025-08-17T21:31:00+10:00" duration="751" start-time-utc="2025-08-16T23:00:00+00:00" end-time-utc="2025-08-17T11:31:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2025-08-16T09:00:00+10:00" end-time-local="2025-08-17T09:00:00+10:00" duration="1440" start-time-utc="2025-08-15T23:00:00+00:00" end-time-utc="2025-08-16T23:00:00+00:00" units="mm" type="rainfall_24hr">0.0</element>
+          <element start-time-local="2025-08-17T06:00:00+10:00" end-time-local="2025-08-17T21:00:00+10:00" start-time-utc="2025-08-16T20:00:00+00:00" end-time-utc="2025-08-17T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2025-08-17T01:29:00+00:00" time-local="2025-08-17T11:29:00+10:00">10.7</element>
+          <element start-time-local="2025-08-17T18:00:00+10:00" end-time-local="2025-08-18T09:00:00+10:00" start-time-utc="2025-08-17T08:00:00+00:00" end-time-utc="2025-08-17T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00">5.0</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2025-08-17T09:26:00+00:00" time-local="2025-08-17T19:26:00+10:00">16</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2025-08-17T09:26:00+00:00" time-local="2025-08-17T19:26:00+10:00">30</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2025-08-17T09:26:00+00:00" time-local="2025-08-17T19:26:00+10:00">SW</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="94953" bom-id="091292" tz="Australia/Hobart" stn-name="SMITHTON AERODROME" stn-height="7.50" type="AWS" lat="-40.8347" lon="145.0847" forecast-district-id="TAS_PW010" description="Smithton">
+      <period index="0" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">-1.8</element>
+          <element units="Celsius" type="delta_t">0.7</element>
+          <element units="km/h" type="gust_kmh">13</element>
+          <element units="knots" type="wind_gust_spd">7</element>
+          <element units="Celsius" type="air_temperature">2.5</element>
+          <element units="Celsius" type="dew_point">0.7</element>
+          <element units="hPa" type="pres">1024.6</element>
+          <element units="hPa" type="msl_pres">1024.6</element>
+          <element units="hPa" type="qnh_pres">1024.6</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">88</element>
+          <element type="wind_dir">SSW</element>
+          <element units="deg" type="wind_dir_deg">195</element>
+          <element units="km/h" type="wind_spd_kmh">13</element>
+          <element units="knots" type="wind_spd">7</element>
+          <element start-time-local="2025-08-17T09:00:00+10:00" end-time-local="2025-08-17T21:31:00+10:00" duration="751" start-time-utc="2025-08-16T23:00:00+00:00" end-time-utc="2025-08-17T11:31:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2025-08-16T09:00:00+10:00" end-time-local="2025-08-17T09:00:00+10:00" duration="1440" start-time-utc="2025-08-15T23:00:00+00:00" end-time-utc="2025-08-16T23:00:00+00:00" units="mm" type="rainfall_24hr">0.4</element>
+          <element start-time-local="2025-08-17T06:00:00+10:00" end-time-local="2025-08-17T21:00:00+10:00" start-time-utc="2025-08-16T20:00:00+00:00" end-time-utc="2025-08-17T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2025-08-17T05:19:00+00:00" time-local="2025-08-17T15:19:00+10:00">12.6</element>
+          <element start-time-local="2025-08-17T18:00:00+10:00" end-time-local="2025-08-18T09:00:00+10:00" start-time-utc="2025-08-17T08:00:00+00:00" end-time-utc="2025-08-17T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00">2.5</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2025-08-17T06:19:00+00:00" time-local="2025-08-17T16:19:00+10:00">14</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2025-08-17T06:19:00+00:00" time-local="2025-08-17T16:19:00+10:00">26</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2025-08-17T06:19:00+00:00" time-local="2025-08-17T16:19:00+10:00">SSW</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="94987" bom-id="092114" tz="Australia/Hobart" stn-name="FRIENDLY BEACHES" stn-height="55.00" type="AWS" lat="-41.9953" lon="148.2794" forecast-district-id="TAS_PW003" description="Friendly Beaches">
+      <period index="0" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">1.9</element>
+          <element units="Celsius" type="delta_t">1.1</element>
+          <element units="km/h" type="gust_kmh">11</element>
+          <element units="knots" type="wind_gust_spd">6</element>
+          <element units="Celsius" type="air_temperature">5.2</element>
+          <element units="Celsius" type="dew_point">2.4</element>
+          <element units="hPa" type="pres">1023.1</element>
+          <element units="hPa" type="msl_pres">1023.1</element>
+          <element units="hPa" type="qnh_pres">1023.1</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">82</element>
+          <element type="wind_dir">W</element>
+          <element units="deg" type="wind_dir_deg">280</element>
+          <element units="km/h" type="wind_spd_kmh">9</element>
+          <element units="knots" type="wind_spd">5</element>
+          <element start-time-local="2025-08-17T09:00:00+10:00" end-time-local="2025-08-17T21:31:00+10:00" duration="751" start-time-utc="2025-08-16T23:00:00+00:00" end-time-utc="2025-08-17T11:31:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2025-08-16T09:00:00+10:00" end-time-local="2025-08-17T09:00:00+10:00" duration="1440" start-time-utc="2025-08-15T23:00:00+00:00" end-time-utc="2025-08-16T23:00:00+00:00" units="mm" type="rainfall_24hr">0.0</element>
+          <element start-time-local="2025-08-17T06:00:00+10:00" end-time-local="2025-08-17T21:00:00+10:00" start-time-utc="2025-08-16T20:00:00+00:00" end-time-utc="2025-08-17T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2025-08-17T04:25:00+00:00" time-local="2025-08-17T14:25:00+10:00">11.7</element>
+          <element start-time-local="2025-08-17T18:00:00+10:00" end-time-local="2025-08-18T09:00:00+10:00" start-time-utc="2025-08-17T08:00:00+00:00" end-time-utc="2025-08-17T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00">5.2</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2025-08-17T04:19:00+00:00" time-local="2025-08-17T14:19:00+10:00">17</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2025-08-17T04:19:00+00:00" time-local="2025-08-17T14:19:00+10:00">32</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2025-08-17T04:19:00+00:00" time-local="2025-08-17T14:19:00+10:00">S</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="95988" bom-id="092124" tz="Australia/Hobart" stn-name="MARIA ISLAND (POINT LESUEUR)" stn-height="28.00" type="AWS" lat="-42.6621" lon="148.0179" forecast-district-id="TAS_PW003" description="Maria Island">
+      <period index="0" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">1.2</element>
+          <element units="Celsius" type="delta_t">2.4</element>
+          <element units="km/h" type="gust_kmh">35</element>
+          <element units="knots" type="wind_gust_spd">19</element>
+          <element units="Celsius" type="air_temperature">8.1</element>
+          <element units="Celsius" type="dew_point">2.4</element>
+          <element units="hPa" type="pres">1023.0</element>
+          <element units="hPa" type="msl_pres">1023.0</element>
+          <element units="hPa" type="qnh_pres">1022.9</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">67</element>
+          <element type="wind_dir">SW</element>
+          <element units="deg" type="wind_dir_deg">227</element>
+          <element units="km/h" type="wind_spd_kmh">28</element>
+          <element units="knots" type="wind_spd">15</element>
+          <element start-time-local="2025-08-17T09:00:00+10:00" end-time-local="2025-08-17T21:31:00+10:00" duration="751" start-time-utc="2025-08-16T23:00:00+00:00" end-time-utc="2025-08-17T11:31:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2025-08-16T09:00:00+10:00" end-time-local="2025-08-17T09:00:00+10:00" duration="1440" start-time-utc="2025-08-15T23:00:00+00:00" end-time-utc="2025-08-16T23:00:00+00:00" units="mm" type="rainfall_24hr">0.0</element>
+          <element start-time-local="2025-08-17T06:00:00+10:00" end-time-local="2025-08-17T21:00:00+10:00" start-time-utc="2025-08-16T20:00:00+00:00" end-time-utc="2025-08-17T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2025-08-17T04:14:00+00:00" time-local="2025-08-17T14:14:00+10:00">10.5</element>
+          <element start-time-local="2025-08-17T18:00:00+10:00" end-time-local="2025-08-18T09:00:00+10:00" start-time-utc="2025-08-17T08:00:00+00:00" end-time-utc="2025-08-17T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00">8.0</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2025-08-17T03:02:00+00:00" time-local="2025-08-17T13:02:00+10:00">24</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2025-08-17T03:02:00+00:00" time-local="2025-08-17T13:02:00+10:00">44</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2025-08-17T03:02:00+00:00" time-local="2025-08-17T13:02:00+10:00">SSW</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="95986" bom-id="094155" tz="Australia/Hobart" stn-name="TASMAN ISLAND" stn-height="240.00" type="AWS" lat="-43.2397" lon="148.0025" forecast-district-id="TAS_PW006" description="Tasman Island">
+      <period index="0" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">3.2</element>
+          <element units="Celsius" type="delta_t">0.9</element>
+          <element units="km/h" type="gust_kmh">43</element>
+          <element units="knots" type="wind_gust_spd">23</element>
+          <element units="Celsius" type="air_temperature">6.5</element>
+          <element units="Celsius" type="dew_point">4.5</element>
+          <element units="hPa" type="pres">1022.5</element>
+          <element units="hPa" type="msl_pres">1022.5</element>
+          <element units="hPa" type="qnh_pres">1022.1</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">87</element>
+          <element type="wind_dir">S</element>
+          <element units="deg" type="wind_dir_deg">190</element>
+          <element units="km/h" type="wind_spd_kmh">11</element>
+          <element units="knots" type="wind_spd">6</element>
+          <element start-time-local="2025-08-17T09:00:00+10:00" end-time-local="2025-08-17T21:31:00+10:00" duration="751" start-time-utc="2025-08-16T23:00:00+00:00" end-time-utc="2025-08-17T11:31:00+00:00" units="mm" type="rainfall">1.0</element>
+          <element start-time-local="2025-08-16T09:00:00+10:00" end-time-local="2025-08-17T09:00:00+10:00" duration="1440" start-time-utc="2025-08-15T23:00:00+00:00" end-time-utc="2025-08-16T23:00:00+00:00" units="mm" type="rainfall_24hr">12.0</element>
+          <element start-time-local="2025-08-17T06:00:00+10:00" end-time-local="2025-08-17T21:00:00+10:00" start-time-utc="2025-08-16T20:00:00+00:00" end-time-utc="2025-08-17T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2025-08-17T03:06:00+00:00" time-local="2025-08-17T13:06:00+10:00">7.7</element>
+          <element start-time-local="2025-08-17T18:00:00+10:00" end-time-local="2025-08-18T09:00:00+10:00" start-time-utc="2025-08-17T08:00:00+00:00" end-time-utc="2025-08-17T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2025-08-17T09:10:00+00:00" time-local="2025-08-17T19:10:00+10:00">5.7</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2025-08-17T11:13:00+00:00" time-local="2025-08-17T21:13:00+10:00">32</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2025-08-17T11:13:00+00:00" time-local="2025-08-17T21:13:00+10:00">59</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2025-08-17T11:13:00+00:00" time-local="2025-08-17T21:13:00+10:00">SSW</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="95987" bom-id="092133" tz="Australia/Hobart" stn-name="SPRING BAY NTC AWS" stn-height="0.00" type="AWS" lat="-42.5464" lon="147.9308" forecast-district-id="TAS_MW005" description="Spring Bay">
+      <period index="0" time-utc="2025-08-17T07:30:00+00:00" time-local="2025-08-17T17:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="air_temperature">9.4</element>
+          <element units="hPa" type="pres">1020.9</element>
+          <element units="hPa" type="msl_pres">1020.9</element>
+          <element units="hPa" type="qnh_pres">1020.9</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="94981" bom-id="092148" tz="Australia/Hobart" stn-name="SWANSEA (FRANCIS STREET)" stn-height="19.00" type="Non-AWS" lat="-42.1381" lon="148.0736" forecast-district-id="TAS_PW003" description="Swansea">
+      <period index="0" time-utc="2025-08-16T23:00:00+00:00" time-local="2025-08-17T09:00:00+10:00" wind-src="mdf">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">2.5</element>
+          <element type="cloud">Mostly clear</element>
+          <element units="m" type="cloud_base_m">600</element>
+          <element type="cloud_oktas">1</element>
+          <element type="cloud_type_id">31</element>
+          <element units="Celsius" type="delta_t">1.4</element>
+          <element units="Celsius" type="air_temperature">5.0</element>
+          <element units="Celsius" type="dew_point">1.4</element>
+          <element units="%" type="rel-humidity">77</element>
+          <element units="km" type="vis_km">30</element>
+          <element type="weather">Fine</element>
+          <element type="wind_dir">NW</element>
+          <element units="deg" type="wind_dir_deg">320</element>
+          <element units="km/h" type="wind_spd_kmh">4</element>
+          <element units="knots" type="wind_spd">2</element>
+          <element start-time-local="2025-08-16T09:00:00+10:00" end-time-local="2025-08-17T09:00:00+10:00" duration="1440" start-time-utc="2025-08-15T23:00:00+00:00" end-time-utc="2025-08-16T23:00:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2025-08-16T09:00:00+10:00" end-time-local="2025-08-17T09:00:00+10:00" duration="1440" start-time-utc="2025-08-15T23:00:00+00:00" end-time-utc="2025-08-16T23:00:00+00:00" units="mm" type="rainfall_24hr">0.0</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="95967" bom-id="094198" tz="Australia/Hobart" stn-name="CAPE BRUNY (CAPE BRUNY)" stn-height="59.70" type="AWS" lat="-43.4886" lon="147.1444" forecast-district-id="TAS_PW006" description="Cape Bruny AWS">
+      <period index="0" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">-0.8</element>
+          <element units="Celsius" type="delta_t">1.5</element>
+          <element units="km/h" type="gust_kmh">43</element>
+          <element units="knots" type="wind_gust_spd">23</element>
+          <element units="Celsius" type="air_temperature">7.2</element>
+          <element units="Celsius" type="dew_point">3.8</element>
+          <element units="hPa" type="pres">1023.5</element>
+          <element units="hPa" type="msl_pres">1023.5</element>
+          <element units="hPa" type="qnh_pres">1023.4</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">79</element>
+          <element type="wind_dir">WSW</element>
+          <element units="deg" type="wind_dir_deg">257</element>
+          <element units="km/h" type="wind_spd_kmh">35</element>
+          <element units="knots" type="wind_spd">19</element>
+          <element start-time-local="2025-08-17T09:00:00+10:00" end-time-local="2025-08-17T21:31:00+10:00" duration="751" start-time-utc="2025-08-16T23:00:00+00:00" end-time-utc="2025-08-17T11:31:00+00:00" units="mm" type="rainfall">0.4</element>
+          <element start-time-local="2025-08-16T09:00:00+10:00" end-time-local="2025-08-17T09:00:00+10:00" duration="1440" start-time-utc="2025-08-15T23:00:00+00:00" end-time-utc="2025-08-16T23:00:00+00:00" units="mm" type="rainfall_24hr">15.0</element>
+          <element start-time-local="2025-08-17T06:00:00+10:00" end-time-local="2025-08-17T21:00:00+10:00" start-time-utc="2025-08-16T20:00:00+00:00" end-time-utc="2025-08-17T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2025-08-17T05:13:00+00:00" time-local="2025-08-17T15:13:00+10:00">9.9</element>
+          <element start-time-local="2025-08-17T18:00:00+10:00" end-time-local="2025-08-18T09:00:00+10:00" start-time-utc="2025-08-17T08:00:00+00:00" end-time-utc="2025-08-17T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2025-08-17T08:53:00+00:00" time-local="2025-08-17T18:53:00+10:00">6.8</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2025-08-17T11:18:00+00:00" time-local="2025-08-17T21:18:00+10:00">26</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2025-08-17T11:18:00+00:00" time-local="2025-08-17T21:18:00+10:00">48</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2025-08-17T11:18:00+00:00" time-local="2025-08-17T21:18:00+10:00">W</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="95961" bom-id="097080" tz="Australia/Hobart" stn-name="LOW ROCKY POINT" stn-height="34.00" type="AWS" lat="-42.9831" lon="145.5025" forecast-district-id="TAS_PW009" description="Low Rocky Point">
+      <period index="0" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">3.3</element>
+          <element units="Celsius" type="delta_t">2.0</element>
+          <element units="km/h" type="gust_kmh">20</element>
+          <element units="knots" type="wind_gust_spd">11</element>
+          <element units="Celsius" type="air_temperature">7.7</element>
+          <element units="Celsius" type="dew_point">2.8</element>
+          <element units="hPa" type="pres">1025.1</element>
+          <element units="hPa" type="msl_pres">1025.1</element>
+          <element units="hPa" type="qnh_pres">1025.1</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">71</element>
+          <element type="wind_dir">SW</element>
+          <element units="deg" type="wind_dir_deg">230</element>
+          <element units="km/h" type="wind_spd_kmh">15</element>
+          <element units="knots" type="wind_spd">8</element>
+          <element start-time-local="2025-08-17T09:00:00+10:00" end-time-local="2025-08-17T21:31:00+10:00" duration="751" start-time-utc="2025-08-16T23:00:00+00:00" end-time-utc="2025-08-17T11:31:00+00:00" units="mm" type="rainfall">0.2</element>
+          <element start-time-local="2025-08-16T09:00:00+10:00" end-time-local="2025-08-17T09:00:00+10:00" duration="1440" start-time-utc="2025-08-15T23:00:00+00:00" end-time-utc="2025-08-16T23:00:00+00:00" units="mm" type="rainfall_24hr">3.0</element>
+          <element start-time-local="2025-08-17T06:00:00+10:00" end-time-local="2025-08-17T21:00:00+10:00" start-time-utc="2025-08-16T20:00:00+00:00" end-time-utc="2025-08-17T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2025-08-17T02:53:00+00:00" time-local="2025-08-17T12:53:00+10:00">10.9</element>
+          <element start-time-local="2025-08-17T18:00:00+10:00" end-time-local="2025-08-18T09:00:00+10:00" start-time-utc="2025-08-17T08:00:00+00:00" end-time-utc="2025-08-17T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2025-08-17T08:06:00+00:00" time-local="2025-08-17T18:06:00+10:00">7.1</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2025-08-17T10:43:00+00:00" time-local="2025-08-17T20:43:00+10:00">17</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2025-08-17T10:43:00+00:00" time-local="2025-08-17T20:43:00+10:00">32</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2025-08-17T10:43:00+00:00" time-local="2025-08-17T20:43:00+10:00">SW</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="94962" bom-id="094041" tz="Australia/Hobart" stn-name="MAATSUYKER ISLAND LIGHTHOUSE" stn-height="146.50" type="AWS" lat="-43.6578" lon="146.2711" forecast-district-id="TAS_PW009" description="Maatsuyker Island">
+      <period index="0" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">1.4</element>
+          <element units="Celsius" type="delta_t">2.6</element>
+          <element units="km/h" type="gust_kmh">32</element>
+          <element units="knots" type="wind_gust_spd">17</element>
+          <element units="Celsius" type="air_temperature">7.7</element>
+          <element units="Celsius" type="dew_point">1.3</element>
+          <element units="hPa" type="pres">1024.2</element>
+          <element units="hPa" type="msl_pres">1024.2</element>
+          <element units="hPa" type="qnh_pres">1024.0</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">64</element>
+          <element type="wind_dir">W</element>
+          <element units="deg" type="wind_dir_deg">277</element>
+          <element units="km/h" type="wind_spd_kmh">24</element>
+          <element units="knots" type="wind_spd">13</element>
+          <element start-time-local="2025-08-17T09:00:00+10:00" end-time-local="2025-08-17T21:31:00+10:00" duration="751" start-time-utc="2025-08-16T23:00:00+00:00" end-time-utc="2025-08-17T11:31:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2025-08-16T09:00:00+10:00" end-time-local="2025-08-17T09:00:00+10:00" duration="1440" start-time-utc="2025-08-15T23:00:00+00:00" end-time-utc="2025-08-16T23:00:00+00:00" units="mm" type="rainfall_24hr">5.4</element>
+          <element start-time-local="2025-08-17T06:00:00+10:00" end-time-local="2025-08-17T21:00:00+10:00" start-time-utc="2025-08-16T20:00:00+00:00" end-time-utc="2025-08-17T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2025-08-17T02:53:00+00:00" time-local="2025-08-17T12:53:00+10:00">9.2</element>
+          <element start-time-local="2025-08-17T18:00:00+10:00" end-time-local="2025-08-18T09:00:00+10:00" start-time-utc="2025-08-17T08:00:00+00:00" end-time-utc="2025-08-17T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2025-08-17T10:06:00+00:00" time-local="2025-08-17T20:06:00+10:00">6.6</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2025-08-17T11:02:00+00:00" time-local="2025-08-17T21:02:00+10:00">21</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2025-08-17T11:02:00+00:00" time-local="2025-08-17T21:02:00+10:00">39</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2025-08-17T11:02:00+00:00" time-local="2025-08-17T21:02:00+10:00">W</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="94974" bom-id="097000" tz="Australia/Hobart" stn-name="CAPE SORELL" stn-height="19.30" type="AWS" lat="-42.1986" lon="145.1700" forecast-district-id="TAS_PW009" description="Cape Sorell">
+      <period index="0" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">3.5</element>
+          <element units="Celsius" type="delta_t">1.5</element>
+          <element units="km/h" type="gust_kmh">15</element>
+          <element units="knots" type="wind_gust_spd">8</element>
+          <element units="Celsius" type="air_temperature">7.0</element>
+          <element units="Celsius" type="dew_point">3.4</element>
+          <element units="hPa" type="pres">1025.0</element>
+          <element units="hPa" type="msl_pres">1025.0</element>
+          <element units="hPa" type="qnh_pres">1025.0</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">78</element>
+          <element type="wind_dir">ESE</element>
+          <element units="deg" type="wind_dir_deg">102</element>
+          <element units="km/h" type="wind_spd_kmh">11</element>
+          <element units="knots" type="wind_spd">6</element>
+          <element start-time-local="2025-08-17T09:00:00+10:00" end-time-local="2025-08-17T21:31:00+10:00" duration="751" start-time-utc="2025-08-16T23:00:00+00:00" end-time-utc="2025-08-17T11:31:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2025-08-16T09:00:00+10:00" end-time-local="2025-08-17T09:00:00+10:00" duration="1440" start-time-utc="2025-08-15T23:00:00+00:00" end-time-utc="2025-08-16T23:00:00+00:00" units="mm" type="rainfall_24hr">3.6</element>
+          <element start-time-local="2025-08-17T06:00:00+10:00" end-time-local="2025-08-17T21:00:00+10:00" start-time-utc="2025-08-16T20:00:00+00:00" end-time-utc="2025-08-17T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2025-08-17T03:21:00+00:00" time-local="2025-08-17T13:21:00+10:00">12.3</element>
+          <element start-time-local="2025-08-17T18:00:00+10:00" end-time-local="2025-08-18T09:00:00+10:00" start-time-utc="2025-08-17T08:00:00+00:00" end-time-utc="2025-08-17T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2025-08-17T11:14:00+00:00" time-local="2025-08-17T21:14:00+10:00">6.5</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2025-08-17T06:27:00+00:00" time-local="2025-08-17T16:27:00+10:00">22</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2025-08-17T06:27:00+00:00" time-local="2025-08-17T16:27:00+10:00">41</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2025-08-17T06:27:00+00:00" time-local="2025-08-17T16:27:00+10:00">SSW</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="94956" bom-id="097072" tz="Australia/Hobart" stn-name="STRAHAN AERODROME" stn-height="21.00" type="AWS" lat="-42.1550" lon="145.2908" forecast-district-id="TAS_PW009" description="Strahan">
+      <period index="0" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">2.6</element>
+          <element type="cloud">Mostly clear</element>
+          <element units="m" type="cloud_base_m">1020</element>
+          <element type="cloud_oktas">1</element>
+          <element units="Celsius" type="delta_t">0.4</element>
+          <element units="km/h" type="gust_kmh">0</element>
+          <element units="knots" type="wind_gust_spd">0</element>
+          <element units="Celsius" type="air_temperature">4.1</element>
+          <element units="Celsius" type="dew_point">3.2</element>
+          <element units="hPa" type="pres">1025.4</element>
+          <element units="hPa" type="msl_pres">1025.4</element>
+          <element units="hPa" type="qnh_pres">1025.4</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">94</element>
+          <element units="km" type="vis_km">10</element>
+          <element type="wind_dir">CALM</element>
+          <element units="deg" type="wind_dir_deg">0</element>
+          <element units="km/h" type="wind_spd_kmh">0</element>
+          <element units="knots" type="wind_spd">0</element>
+          <element start-time-local="2025-08-17T09:00:00+10:00" end-time-local="2025-08-17T21:31:00+10:00" duration="751" start-time-utc="2025-08-16T23:00:00+00:00" end-time-utc="2025-08-17T11:31:00+00:00" units="mm" type="rainfall">0.2</element>
+          <element start-time-local="2025-08-16T09:00:00+10:00" end-time-local="2025-08-17T09:00:00+10:00" duration="1440" start-time-utc="2025-08-15T23:00:00+00:00" end-time-utc="2025-08-16T23:00:00+00:00" units="mm" type="rainfall_24hr">7.2</element>
+          <element start-time-local="2025-08-17T06:00:00+10:00" end-time-local="2025-08-17T21:00:00+10:00" start-time-utc="2025-08-16T20:00:00+00:00" end-time-utc="2025-08-17T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2025-08-17T02:40:00+00:00" time-local="2025-08-17T12:40:00+10:00">10.9</element>
+          <element start-time-local="2025-08-17T18:00:00+10:00" end-time-local="2025-08-18T09:00:00+10:00" start-time-utc="2025-08-17T08:00:00+00:00" end-time-utc="2025-08-17T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2025-08-17T10:21:00+00:00" time-local="2025-08-17T20:21:00+10:00">3.6</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2025-08-17T03:31:00+00:00" time-local="2025-08-17T13:31:00+10:00">16</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2025-08-17T03:31:00+00:00" time-local="2025-08-17T13:31:00+10:00">30</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2025-08-17T03:31:00+00:00" time-local="2025-08-17T13:31:00+10:00">SSE</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="95985" bom-id="092123" tz="Australia/Hobart" stn-name="SWAN ISLAND" stn-height="15.00" type="AWS" lat="-40.7292" lon="148.1250" forecast-district-id="TAS_PW002" description="Swan Island">
+      <period index="0" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">4.4</element>
+          <element units="Celsius" type="delta_t">2.0</element>
+          <element units="km/h" type="gust_kmh">9</element>
+          <element units="knots" type="wind_gust_spd">5</element>
+          <element units="Celsius" type="air_temperature">7.6</element>
+          <element units="Celsius" type="dew_point">2.9</element>
+          <element units="hPa" type="pres">1023.2</element>
+          <element units="hPa" type="msl_pres">1023.2</element>
+          <element units="hPa" type="qnh_pres">1023.2</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">72</element>
+          <element type="wind_dir">SSW</element>
+          <element units="deg" type="wind_dir_deg">196</element>
+          <element units="km/h" type="wind_spd_kmh">9</element>
+          <element units="knots" type="wind_spd">5</element>
+          <element start-time-local="2025-08-17T09:00:00+10:00" end-time-local="2025-08-17T21:31:00+10:00" duration="751" start-time-utc="2025-08-16T23:00:00+00:00" end-time-utc="2025-08-17T11:31:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2025-08-16T09:00:00+10:00" end-time-local="2025-08-17T09:00:00+10:00" duration="1440" start-time-utc="2025-08-15T23:00:00+00:00" end-time-utc="2025-08-16T23:00:00+00:00" units="mm" type="rainfall_24hr">0.0</element>
+          <element start-time-local="2025-08-17T06:00:00+10:00" end-time-local="2025-08-17T21:00:00+10:00" start-time-utc="2025-08-16T20:00:00+00:00" end-time-utc="2025-08-17T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2025-08-17T02:57:00+00:00" time-local="2025-08-17T12:57:00+10:00">12.3</element>
+          <element start-time-local="2025-08-17T18:00:00+10:00" end-time-local="2025-08-18T09:00:00+10:00" start-time-utc="2025-08-17T08:00:00+00:00" end-time-utc="2025-08-17T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2025-08-17T10:16:00+00:00" time-local="2025-08-17T20:16:00+10:00">7.0</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2025-08-16T15:34:00+00:00" time-local="2025-08-17T01:34:00+10:00">20</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2025-08-16T15:34:00+00:00" time-local="2025-08-17T01:34:00+10:00">37</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2025-08-16T15:34:00+00:00" time-local="2025-08-17T01:34:00+10:00">SSE</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="94619" bom-id="094250" tz="Australia/Hobart" stn-name="HOBART AIRPORT" stn-height="2.20" type="AWS" lat="-42.8333" lon="147.5119" forecast-district-id="TAS_PW006" description="Hobart Airport">
+      <period index="0" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">2.0</element>
+          <element type="cloud">Clear</element>
+          <element type="cloud_oktas">0</element>
+          <element units="Celsius" type="delta_t">1.1</element>
+          <element units="km/h" type="gust_kmh">17</element>
+          <element units="knots" type="wind_gust_spd">9</element>
+          <element units="Celsius" type="air_temperature">5.6</element>
+          <element units="Celsius" type="dew_point">2.8</element>
+          <element units="hPa" type="pres">1023.6</element>
+          <element units="hPa" type="msl_pres">1023.6</element>
+          <element units="hPa" type="qnh_pres">1023.6</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">82</element>
+          <element units="km" type="vis_km">10</element>
+          <element type="wind_dir">WNW</element>
+          <element units="deg" type="wind_dir_deg">288</element>
+          <element units="km/h" type="wind_spd_kmh">11</element>
+          <element units="knots" type="wind_spd">6</element>
+          <element start-time-local="2025-08-17T09:00:00+10:00" end-time-local="2025-08-17T21:31:00+10:00" duration="751" start-time-utc="2025-08-16T23:00:00+00:00" end-time-utc="2025-08-17T11:31:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2025-08-16T09:00:00+10:00" end-time-local="2025-08-17T09:00:00+10:00" duration="1440" start-time-utc="2025-08-15T23:00:00+00:00" end-time-utc="2025-08-16T23:00:00+00:00" units="mm" type="rainfall_24hr">0.0</element>
+          <element start-time-local="2025-08-17T06:00:00+10:00" end-time-local="2025-08-17T21:00:00+10:00" start-time-utc="2025-08-16T20:00:00+00:00" end-time-utc="2025-08-17T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2025-08-17T03:37:00+00:00" time-local="2025-08-17T13:37:00+10:00">11.6</element>
+          <element start-time-local="2025-08-17T18:00:00+10:00" end-time-local="2025-08-18T09:00:00+10:00" start-time-utc="2025-08-17T08:00:00+00:00" end-time-utc="2025-08-17T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2025-08-17T11:17:00+00:00" time-local="2025-08-17T21:17:00+10:00">5.2</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2025-08-17T06:18:00+00:00" time-local="2025-08-17T16:18:00+10:00">17</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2025-08-17T06:18:00+00:00" time-local="2025-08-17T16:18:00+10:00">32</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2025-08-17T06:18:00+00:00" time-local="2025-08-17T16:18:00+10:00">SSW</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="95972" bom-id="094212" tz="Australia/Hobart" stn-name="CAMPANIA (KINCORA)" stn-height="45.00" type="AWS" lat="-42.6867" lon="147.4258" forecast-district-id="TAS_PW006" description="Campania">
+      <period index="0" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">-1.1</element>
+          <element units="Celsius" type="delta_t">0.5</element>
+          <element units="km/h" type="gust_kmh">13</element>
+          <element units="knots" type="wind_gust_spd">7</element>
+          <element units="Celsius" type="air_temperature">2.7</element>
+          <element units="Celsius" type="dew_point">1.5</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">92</element>
+          <element type="wind_dir">N</element>
+          <element units="deg" type="wind_dir_deg">354</element>
+          <element units="km/h" type="wind_spd_kmh">11</element>
+          <element units="knots" type="wind_spd">6</element>
+          <element start-time-local="2025-08-17T09:00:00+10:00" end-time-local="2025-08-17T21:31:00+10:00" duration="751" start-time-utc="2025-08-16T23:00:00+00:00" end-time-utc="2025-08-17T11:31:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2025-08-16T09:00:00+10:00" end-time-local="2025-08-17T09:00:00+10:00" duration="1440" start-time-utc="2025-08-15T23:00:00+00:00" end-time-utc="2025-08-16T23:00:00+00:00" units="mm" type="rainfall_24hr">0.2</element>
+          <element start-time-local="2025-08-17T06:00:00+10:00" end-time-local="2025-08-17T21:00:00+10:00" start-time-utc="2025-08-16T20:00:00+00:00" end-time-utc="2025-08-17T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2025-08-17T02:29:00+00:00" time-local="2025-08-17T12:29:00+10:00">10.8</element>
+          <element start-time-local="2025-08-17T18:00:00+10:00" end-time-local="2025-08-18T09:00:00+10:00" start-time-utc="2025-08-17T08:00:00+00:00" end-time-utc="2025-08-17T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2025-08-17T11:13:00+00:00" time-local="2025-08-17T21:13:00+10:00">2.3</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2025-08-16T16:12:00+00:00" time-local="2025-08-17T02:12:00+10:00">13</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2025-08-16T16:12:00+00:00" time-local="2025-08-17T02:12:00+10:00">24</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2025-08-16T16:12:00+00:00" time-local="2025-08-17T02:12:00+10:00">N</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="94961" bom-id="094020" tz="Australia/Hobart" stn-name="DOVER" stn-height="20.00" type="Non-AWS" lat="-43.3330" lon="146.9980" forecast-district-id="TAS_PW006" description="Dover">
+      <period index="0" time-utc="2025-08-16T23:00:00+00:00" time-local="2025-08-17T09:00:00+10:00" wind-src="mdf">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">-3.5</element>
+          <element type="cloud">Mostly cloudy</element>
+          <element units="m" type="cloud_base_m">100</element>
+          <element type="cloud_oktas">6</element>
+          <element type="cloud_type_id">32</element>
+          <element type="cloud_type">Towering Cumulus</element>
+          <element units="Celsius" type="delta_t">0.0</element>
+          <element units="Celsius" type="air_temperature">2.3</element>
+          <element units="Celsius" type="dew_point">2.3</element>
+          <element units="%" type="rel-humidity">100</element>
+          <element units="km" type="vis_km">30</element>
+          <element type="weather">Distant fog</element>
+          <element type="wind_dir">W</element>
+          <element units="deg" type="wind_dir_deg">270</element>
+          <element units="km/h" type="wind_spd_kmh">22</element>
+          <element units="knots" type="wind_spd">12</element>
+          <element start-time-local="2025-08-16T09:00:00+10:00" end-time-local="2025-08-17T09:00:00+10:00" duration="1440" start-time-utc="2025-08-15T23:00:00+00:00" end-time-utc="2025-08-16T23:00:00+00:00" units="mm" type="rainfall">4.0</element>
+          <element start-time-local="2025-08-16T09:00:00+10:00" end-time-local="2025-08-17T09:00:00+10:00" duration="1440" start-time-utc="2025-08-15T23:00:00+00:00" end-time-utc="2025-08-16T23:00:00+00:00" units="mm" type="rainfall_24hr">4.0</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="94980" bom-id="099005" tz="Australia/Hobart" stn-name="FLINDERS ISLAND AIRPORT" stn-height="9.00" type="AWS" lat="-40.0911" lon="148.0024" forecast-district-id="TAS_PW001" description="Flinders Island Airport">
+      <period index="0" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">-4.1</element>
+          <element type="cloud">Clear</element>
+          <element type="cloud_oktas">0</element>
+          <element units="Celsius" type="delta_t">0.4</element>
+          <element units="km/h" type="gust_kmh">15</element>
+          <element units="knots" type="wind_gust_spd">8</element>
+          <element units="Celsius" type="air_temperature">0.4</element>
+          <element units="Celsius" type="dew_point">-0.6</element>
+          <element units="hPa" type="pres">1023.3</element>
+          <element units="hPa" type="msl_pres">1023.3</element>
+          <element units="hPa" type="qnh_pres">1023.3</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">93</element>
+          <element units="km" type="vis_km">10</element>
+          <element type="wind_dir">NE</element>
+          <element units="deg" type="wind_dir_deg">56</element>
+          <element units="km/h" type="wind_spd_kmh">13</element>
+          <element units="knots" type="wind_spd">7</element>
+          <element start-time-local="2025-08-17T09:00:00+10:00" end-time-local="2025-08-17T21:31:00+10:00" duration="751" start-time-utc="2025-08-16T23:00:00+00:00" end-time-utc="2025-08-17T11:31:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2025-08-16T09:00:00+10:00" end-time-local="2025-08-17T09:00:00+10:00" duration="1440" start-time-utc="2025-08-15T23:00:00+00:00" end-time-utc="2025-08-16T23:00:00+00:00" units="mm" type="rainfall_24hr">0.0</element>
+          <element start-time-local="2025-08-17T06:00:00+10:00" end-time-local="2025-08-17T21:00:00+10:00" start-time-utc="2025-08-16T20:00:00+00:00" end-time-utc="2025-08-17T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2025-08-17T03:56:00+00:00" time-local="2025-08-17T13:56:00+10:00">12.0</element>
+          <element start-time-local="2025-08-17T18:00:00+10:00" end-time-local="2025-08-18T09:00:00+10:00" start-time-utc="2025-08-17T08:00:00+00:00" end-time-utc="2025-08-17T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2025-08-17T11:12:00+00:00" time-local="2025-08-17T21:12:00+10:00">0.3</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2025-08-16T14:23:00+00:00" time-local="2025-08-17T00:23:00+10:00">21</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2025-08-16T14:23:00+00:00" time-local="2025-08-17T00:23:00+10:00">39</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2025-08-16T14:23:00+00:00" time-local="2025-08-17T00:23:00+10:00">WSW</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="95959" bom-id="096033" tz="Australia/Hobart" stn-name="LIAWENEE" stn-height="1057.00" type="AWS" lat="-41.8997" lon="146.6694" forecast-district-id="TAS_PW008" description="Liawenee">
+      <period index="0" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">-6.3</element>
+          <element units="Celsius" type="delta_t">-0.1</element>
+          <element units="km/h" type="gust_kmh">13</element>
+          <element units="knots" type="wind_gust_spd">7</element>
+          <element units="Celsius" type="air_temperature">-2.3</element>
+          <element units="Celsius" type="dew_point">-2.4</element>
+          <element units="hPa" type="pres">1023.4</element>
+          <element units="hPa" type="msl_pres">1023.4</element>
+          <element units="hPa" type="qnh_pres">1021.2</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">99</element>
+          <element type="wind_dir">SW</element>
+          <element units="deg" type="wind_dir_deg">224</element>
+          <element units="km/h" type="wind_spd_kmh">9</element>
+          <element units="knots" type="wind_spd">5</element>
+          <element start-time-local="2025-08-17T09:00:00+10:00" end-time-local="2025-08-17T21:31:00+10:00" duration="751" start-time-utc="2025-08-16T23:00:00+00:00" end-time-utc="2025-08-17T11:31:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2025-08-16T09:00:00+10:00" end-time-local="2025-08-17T09:00:00+10:00" duration="1440" start-time-utc="2025-08-15T23:00:00+00:00" end-time-utc="2025-08-16T23:00:00+00:00" units="mm" type="rainfall_24hr">0.2</element>
+          <element start-time-local="2025-08-17T06:00:00+10:00" end-time-local="2025-08-17T21:00:00+10:00" start-time-utc="2025-08-16T20:00:00+00:00" end-time-utc="2025-08-17T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2025-08-17T04:49:00+00:00" time-local="2025-08-17T14:49:00+10:00">4.6</element>
+          <element start-time-local="2025-08-17T18:00:00+10:00" end-time-local="2025-08-18T09:00:00+10:00" start-time-utc="2025-08-17T08:00:00+00:00" end-time-utc="2025-08-17T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2025-08-17T08:58:00+00:00" time-local="2025-08-17T18:58:00+10:00">-2.6</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2025-08-17T06:21:00+00:00" time-local="2025-08-17T16:21:00+10:00">14</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2025-08-17T06:21:00+00:00" time-local="2025-08-17T16:21:00+10:00">26</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2025-08-17T06:21:00+00:00" time-local="2025-08-17T16:21:00+10:00">SW</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="94950" bom-id="091223" tz="Australia/Hobart" stn-name="MARRAWAH" stn-height="107.30" type="Non-AWS" lat="-40.9089" lon="144.7094" forecast-district-id="TAS_FA001" description="Marrawah">
+      <period index="0" time-utc="2025-08-16T23:00:00+00:00" time-local="2025-08-17T09:00:00+10:00" wind-src="mdf">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">2.7</element>
+          <element type="cloud">Mostly clear</element>
+          <element units="m" type="cloud_base_m">1000</element>
+          <element type="cloud_oktas">1</element>
+          <element type="cloud_type_id">35</element>
+          <element units="Celsius" type="delta_t">1.1</element>
+          <element units="Celsius" type="air_temperature">6.5</element>
+          <element units="Celsius" type="dew_point">3.9</element>
+          <element units="hPa" type="pres">1019.4</element>
+          <element units="hPa" type="msl_pres">1019.4</element>
+          <element units="%" type="rel-humidity">83</element>
+          <element units="m" type="sea_height">&lt;0.5</element>
+          <element type="swell_dir">SW</element>
+          <element units="m" type="swell_height">1.8</element>
+          <element units="s" type="swell_period">14</element>
+          <element units="km" type="vis_km">50</element>
+          <element type="weather">Fine</element>
+          <element type="wind_dir">SW</element>
+          <element units="deg" type="wind_dir_deg">230</element>
+          <element units="km/h" type="wind_spd_kmh">13</element>
+          <element units="knots" type="wind_spd">7</element>
+          <element start-time-local="2025-08-16T09:00:00+10:00" end-time-local="2025-08-17T09:00:00+10:00" duration="1440" start-time-utc="2025-08-15T23:00:00+00:00" end-time-utc="2025-08-16T23:00:00+00:00" units="mm" type="rainfall">2.0</element>
+          <element start-time-local="2025-08-16T09:00:00+10:00" end-time-local="2025-08-17T09:00:00+10:00" duration="1440" start-time-utc="2025-08-15T23:00:00+00:00" end-time-utc="2025-08-16T23:00:00+00:00" units="mm" type="rainfall_24hr">2.0</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="95979" bom-id="094087" tz="Australia/Hobart" stn-name="KUNANYI (MOUNT WELLINGTON PINNACLE)" stn-height="1260.47" type="AWS" lat="-42.8950" lon="147.2358" forecast-district-id="TAS_PW006" description="kunanyi /Mount Wellington">
+      <period index="0" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">-5.5</element>
+          <element units="Celsius" type="delta_t">0.0</element>
+          <element units="km/h" type="gust_kmh">0</element>
+          <element units="knots" type="wind_gust_spd">0</element>
+          <element units="Celsius" type="air_temperature">-3.1</element>
+          <element units="Celsius" type="dew_point">-3.4</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">98</element>
+          <element type="wind_dir">CALM</element>
+          <element units="deg" type="wind_dir_deg">0</element>
+          <element units="km/h" type="wind_spd_kmh">0</element>
+          <element units="knots" type="wind_spd">0</element>
+          <element start-time-local="2025-08-17T09:00:00+10:00" end-time-local="2025-08-17T21:31:00+10:00" duration="751" start-time-utc="2025-08-16T23:00:00+00:00" end-time-utc="2025-08-17T11:31:00+00:00" units="mm" type="rainfall">1.2</element>
+          <element start-time-local="2025-08-16T09:00:00+10:00" end-time-local="2025-08-17T09:00:00+10:00" duration="1440" start-time-utc="2025-08-15T23:00:00+00:00" end-time-utc="2025-08-16T23:00:00+00:00" units="mm" type="rainfall_24hr">0.0</element>
+          <element start-time-local="2025-08-17T06:00:00+10:00" end-time-local="2025-08-17T21:00:00+10:00" start-time-utc="2025-08-16T20:00:00+00:00" end-time-utc="2025-08-17T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2025-08-17T05:37:00+00:00" time-local="2025-08-17T15:37:00+10:00">-0.6</element>
+          <element start-time-local="2025-08-17T18:00:00+10:00" end-time-local="2025-08-18T09:00:00+10:00" start-time-utc="2025-08-17T08:00:00+00:00" end-time-utc="2025-08-17T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00">-3.2</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00">0</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00">0</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="94957" bom-id="095048" tz="Australia/Hobart" stn-name="OUSE FIRE STATION" stn-height="90.00" type="AWS" lat="-42.4842" lon="146.7106" forecast-district-id="TAS_PW007" description="Ouse">
+      <period index="0" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">-0.9</element>
+          <element units="Celsius" type="delta_t">0.7</element>
+          <element units="km/h" type="gust_kmh">7</element>
+          <element units="knots" type="wind_gust_spd">4</element>
+          <element units="Celsius" type="air_temperature">2.2</element>
+          <element units="Celsius" type="dew_point">0.3</element>
+          <element units="hPa" type="pres">1024.3</element>
+          <element units="hPa" type="msl_pres">1024.3</element>
+          <element units="hPa" type="qnh_pres">1024.0</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">87</element>
+          <element type="wind_dir">NNE</element>
+          <element units="deg" type="wind_dir_deg">28</element>
+          <element units="km/h" type="wind_spd_kmh">6</element>
+          <element units="knots" type="wind_spd">3</element>
+          <element start-time-local="2025-08-17T09:00:00+10:00" end-time-local="2025-08-17T21:31:00+10:00" duration="751" start-time-utc="2025-08-16T23:00:00+00:00" end-time-utc="2025-08-17T11:31:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2025-08-16T09:00:00+10:00" end-time-local="2025-08-17T09:00:00+10:00" duration="1440" start-time-utc="2025-08-15T23:00:00+00:00" end-time-utc="2025-08-16T23:00:00+00:00" units="mm" type="rainfall_24hr">0.6</element>
+          <element start-time-local="2025-08-17T06:00:00+10:00" end-time-local="2025-08-17T21:00:00+10:00" start-time-utc="2025-08-16T20:00:00+00:00" end-time-utc="2025-08-17T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2025-08-17T04:30:00+00:00" time-local="2025-08-17T14:30:00+10:00">11.3</element>
+          <element start-time-local="2025-08-17T18:00:00+10:00" end-time-local="2025-08-18T09:00:00+10:00" start-time-utc="2025-08-17T08:00:00+00:00" end-time-utc="2025-08-17T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2025-08-17T11:22:00+00:00" time-local="2025-08-17T21:22:00+10:00">1.9</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2025-08-17T07:16:00+00:00" time-local="2025-08-17T17:16:00+10:00">12</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2025-08-17T07:16:00+00:00" time-local="2025-08-17T17:16:00+10:00">22</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2025-08-17T07:16:00+00:00" time-local="2025-08-17T17:16:00+10:00">WSW</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="94985" bom-id="093053" tz="Australia/Hobart" stn-name="ROSS (THE BOULEVARDS)" stn-height="186.00" type="Non-AWS" lat="-42.0250" lon="147.4954" forecast-district-id="TAS_PW005" description="Ross">
+      <period index="0" time-utc="2025-08-16T23:00:00+00:00" time-local="2025-08-17T09:00:00+10:00" wind-src="mdf">
+        <level index="0" type="surface">
+          <element type="cloud">Clear</element>
+          <element units="m" type="cloud_base_m">2500</element>
+          <element type="cloud_oktas">0</element>
+          <element units="Celsius" type="air_temperature">-0.2</element>
+          <element units="km" type="vis_km">30</element>
+          <element type="weather">Fine</element>
+          <element type="wind_dir">CALM</element>
+          <element units="deg" type="wind_dir_deg">0</element>
+          <element units="km/h" type="wind_spd_kmh">0</element>
+          <element units="knots" type="wind_spd">0</element>
+          <element start-time-local="2025-08-16T09:00:00+10:00" end-time-local="2025-08-17T09:00:00+10:00" duration="1440" start-time-utc="2025-08-15T23:00:00+00:00" end-time-utc="2025-08-16T23:00:00+00:00" units="mm" type="rainfall">0.2</element>
+          <element start-time-local="2025-08-16T09:00:00+10:00" end-time-local="2025-08-17T09:00:00+10:00" duration="1440" start-time-utc="2025-08-15T23:00:00+00:00" end-time-utc="2025-08-16T23:00:00+00:00" units="mm" type="rainfall_24hr">0.2</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="95964" bom-id="091293" tz="Australia/Hobart" stn-name="LOW HEAD" stn-height="3.00" type="AWS" lat="-41.0547" lon="146.7874" forecast-district-id="TAS_PW004" description="Low Head">
+      <period index="0" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">2.1</element>
+          <element units="Celsius" type="delta_t">2.0</element>
+          <element units="km/h" type="gust_kmh">17</element>
+          <element units="knots" type="wind_gust_spd">9</element>
+          <element units="Celsius" type="air_temperature">6.7</element>
+          <element units="Celsius" type="dew_point">1.6</element>
+          <element units="hPa" type="pres">1023.4</element>
+          <element units="hPa" type="msl_pres">1023.4</element>
+          <element units="hPa" type="qnh_pres">1023.4</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">70</element>
+          <element type="wind_dir">SSE</element>
+          <element units="deg" type="wind_dir_deg">151</element>
+          <element units="km/h" type="wind_spd_kmh">15</element>
+          <element units="knots" type="wind_spd">8</element>
+          <element start-time-local="2025-08-17T09:00:00+10:00" end-time-local="2025-08-17T21:31:00+10:00" duration="751" start-time-utc="2025-08-16T23:00:00+00:00" end-time-utc="2025-08-17T11:31:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2025-08-16T09:00:00+10:00" end-time-local="2025-08-17T09:00:00+10:00" duration="1440" start-time-utc="2025-08-15T23:00:00+00:00" end-time-utc="2025-08-16T23:00:00+00:00" units="mm" type="rainfall_24hr">0.2</element>
+          <element start-time-local="2025-08-17T06:00:00+10:00" end-time-local="2025-08-17T21:00:00+10:00" start-time-utc="2025-08-16T20:00:00+00:00" end-time-utc="2025-08-17T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2025-08-17T05:09:00+00:00" time-local="2025-08-17T15:09:00+10:00">12.8</element>
+          <element start-time-local="2025-08-17T18:00:00+10:00" end-time-local="2025-08-18T09:00:00+10:00" start-time-utc="2025-08-17T08:00:00+00:00" end-time-utc="2025-08-17T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00">6.6</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2025-08-17T01:20:00+00:00" time-local="2025-08-17T11:20:00+10:00">19</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2025-08-17T01:20:00+00:00" time-local="2025-08-17T11:20:00+10:00">35</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2025-08-17T01:20:00+00:00" time-local="2025-08-17T11:20:00+10:00">SSE</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="94983" bom-id="092045" tz="Australia/Hobart" stn-name="LARAPUNA (EDDYSTONE POINT)" stn-height="19.70" type="AWS" lat="-40.9928" lon="148.3467" forecast-district-id="TAS_PW002" description="Larapuna (Eddystone Point)">
+      <period index="0" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">3.4</element>
+          <element units="Celsius" type="delta_t">2.1</element>
+          <element units="km/h" type="gust_kmh">24</element>
+          <element units="knots" type="wind_gust_spd">13</element>
+          <element units="Celsius" type="air_temperature">8.6</element>
+          <element units="Celsius" type="dew_point">3.6</element>
+          <element units="hPa" type="pres">1023.3</element>
+          <element units="hPa" type="msl_pres">1023.3</element>
+          <element units="hPa" type="qnh_pres">1023.2</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">71</element>
+          <element type="wind_dir">SW</element>
+          <element units="deg" type="wind_dir_deg">219</element>
+          <element units="km/h" type="wind_spd_kmh">20</element>
+          <element units="knots" type="wind_spd">11</element>
+          <element start-time-local="2025-08-17T09:00:00+10:00" end-time-local="2025-08-17T21:31:00+10:00" duration="751" start-time-utc="2025-08-16T23:00:00+00:00" end-time-utc="2025-08-17T11:31:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2025-08-16T09:00:00+10:00" end-time-local="2025-08-17T09:00:00+10:00" duration="1440" start-time-utc="2025-08-15T23:00:00+00:00" end-time-utc="2025-08-16T23:00:00+00:00" units="mm" type="rainfall_24hr">5.2</element>
+          <element start-time-local="2025-08-17T06:00:00+10:00" end-time-local="2025-08-17T21:00:00+10:00" start-time-utc="2025-08-16T20:00:00+00:00" end-time-utc="2025-08-17T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2025-08-17T01:54:00+00:00" time-local="2025-08-17T11:54:00+10:00">12.0</element>
+          <element start-time-local="2025-08-17T18:00:00+10:00" end-time-local="2025-08-18T09:00:00+10:00" start-time-utc="2025-08-17T08:00:00+00:00" end-time-utc="2025-08-17T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2025-08-17T09:56:00+00:00" time-local="2025-08-17T19:56:00+10:00">8.0</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2025-08-16T18:31:00+00:00" time-local="2025-08-17T04:31:00+10:00">22</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2025-08-16T18:31:00+00:00" time-local="2025-08-17T04:31:00+10:00">41</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2025-08-16T18:31:00+00:00" time-local="2025-08-17T04:31:00+10:00">SSW</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="94972" bom-id="091219" tz="Australia/Hobart" stn-name="SCOTTSDALE (WEST MINSTONE ROAD)" stn-height="197.50" type="AWS" lat="-41.1708" lon="147.4883" forecast-district-id="TAS_PW002" description="Scottsdale">
+      <period index="0" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">-1.4</element>
+          <element units="Celsius" type="delta_t">1.1</element>
+          <element units="km/h" type="gust_kmh">13</element>
+          <element units="knots" type="wind_gust_spd">7</element>
+          <element units="Celsius" type="air_temperature">2.4</element>
+          <element units="Celsius" type="dew_point">-0.5</element>
+          <element units="hPa" type="pres">1023.2</element>
+          <element units="hPa" type="msl_pres">1023.2</element>
+          <element units="hPa" type="qnh_pres">1022.8</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">81</element>
+          <element type="wind_dir">S</element>
+          <element units="deg" type="wind_dir_deg">181</element>
+          <element units="km/h" type="wind_spd_kmh">9</element>
+          <element units="knots" type="wind_spd">5</element>
+          <element start-time-local="2025-08-17T09:00:00+10:00" end-time-local="2025-08-17T21:31:00+10:00" duration="751" start-time-utc="2025-08-16T23:00:00+00:00" end-time-utc="2025-08-17T11:31:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2025-08-16T09:00:00+10:00" end-time-local="2025-08-17T09:00:00+10:00" duration="1440" start-time-utc="2025-08-15T23:00:00+00:00" end-time-utc="2025-08-16T23:00:00+00:00" units="mm" type="rainfall_24hr">0.0</element>
+          <element start-time-local="2025-08-17T06:00:00+10:00" end-time-local="2025-08-17T21:00:00+10:00" start-time-utc="2025-08-16T20:00:00+00:00" end-time-utc="2025-08-17T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2025-08-17T04:49:00+00:00" time-local="2025-08-17T14:49:00+10:00">12.0</element>
+          <element start-time-local="2025-08-17T18:00:00+10:00" end-time-local="2025-08-18T09:00:00+10:00" start-time-utc="2025-08-17T08:00:00+00:00" end-time-utc="2025-08-17T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2025-08-17T09:02:00+00:00" time-local="2025-08-17T19:02:00+10:00">1.9</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2025-08-17T05:47:00+00:00" time-local="2025-08-17T15:47:00+10:00">11</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2025-08-17T05:47:00+00:00" time-local="2025-08-17T15:47:00+10:00">20</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2025-08-17T05:47:00+00:00" time-local="2025-08-17T15:47:00+10:00">N</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="95975" bom-id="092163" tz="Australia/Hobart" stn-name="FINGAL (FLEMING ST)" stn-height="255.00" type="AWS" lat="-41.6430" lon="147.9800" forecast-district-id="TAS_PW003" description="Fingal">
+      <period index="0" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">-0.8</element>
+          <element units="Celsius" type="delta_t">0.9</element>
+          <element units="km/h" type="gust_kmh">4</element>
+          <element units="knots" type="wind_gust_spd">2</element>
+          <element units="Celsius" type="air_temperature">1.7</element>
+          <element units="Celsius" type="dew_point">-0.7</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">84</element>
+          <element type="wind_dir">S</element>
+          <element units="deg" type="wind_dir_deg">176</element>
+          <element units="km/h" type="wind_spd_kmh">2</element>
+          <element units="knots" type="wind_spd">1</element>
+          <element start-time-local="2025-08-17T09:00:00+10:00" end-time-local="2025-08-17T21:31:00+10:00" duration="751" start-time-utc="2025-08-16T23:00:00+00:00" end-time-utc="2025-08-17T11:31:00+00:00" units="mm" type="rainfall">0.2</element>
+          <element start-time-local="2025-08-16T09:00:00+10:00" end-time-local="2025-08-17T09:00:00+10:00" duration="1440" start-time-utc="2025-08-15T23:00:00+00:00" end-time-utc="2025-08-16T23:00:00+00:00" units="mm" type="rainfall_24hr">0.0</element>
+          <element start-time-local="2025-08-17T06:00:00+10:00" end-time-local="2025-08-17T21:00:00+10:00" start-time-utc="2025-08-16T20:00:00+00:00" end-time-utc="2025-08-17T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2025-08-17T04:40:00+00:00" time-local="2025-08-17T14:40:00+10:00">11.5</element>
+          <element start-time-local="2025-08-17T18:00:00+10:00" end-time-local="2025-08-18T09:00:00+10:00" start-time-utc="2025-08-17T08:00:00+00:00" end-time-utc="2025-08-17T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2025-08-17T10:54:00+00:00" time-local="2025-08-17T20:54:00+10:00">1.2</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2025-08-17T06:08:00+00:00" time-local="2025-08-17T16:08:00+10:00">12</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2025-08-17T06:08:00+00:00" time-local="2025-08-17T16:08:00+10:00">22</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2025-08-17T06:08:00+00:00" time-local="2025-08-17T16:08:00+10:00">S</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="95981" bom-id="092120" tz="Australia/Hobart" stn-name="ST HELENS AERODROME" stn-height="48.00" type="AWS" lat="-41.3381" lon="148.2792" forecast-district-id="TAS_PW003" description="St Helens">
+      <period index="0" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">0.7</element>
+          <element type="cloud">Clear</element>
+          <element type="cloud_oktas">0</element>
+          <element units="Celsius" type="delta_t">0.7</element>
+          <element units="km/h" type="gust_kmh">17</element>
+          <element units="knots" type="wind_gust_spd">9</element>
+          <element units="Celsius" type="air_temperature">4.4</element>
+          <element units="Celsius" type="dew_point">2.6</element>
+          <element units="hPa" type="pres">1023.6</element>
+          <element units="hPa" type="msl_pres">1023.6</element>
+          <element units="hPa" type="qnh_pres">1023.5</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">88</element>
+          <element units="km" type="vis_km">10</element>
+          <element type="wind_dir">NW</element>
+          <element units="deg" type="wind_dir_deg">306</element>
+          <element units="km/h" type="wind_spd_kmh">11</element>
+          <element units="knots" type="wind_spd">6</element>
+          <element start-time-local="2025-08-17T09:00:00+10:00" end-time-local="2025-08-17T21:31:00+10:00" duration="751" start-time-utc="2025-08-16T23:00:00+00:00" end-time-utc="2025-08-17T11:31:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2025-08-16T09:00:00+10:00" end-time-local="2025-08-17T09:00:00+10:00" duration="1440" start-time-utc="2025-08-15T23:00:00+00:00" end-time-utc="2025-08-16T23:00:00+00:00" units="mm" type="rainfall_24hr">0.2</element>
+          <element start-time-local="2025-08-17T06:00:00+10:00" end-time-local="2025-08-17T21:00:00+10:00" start-time-utc="2025-08-16T20:00:00+00:00" end-time-utc="2025-08-17T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2025-08-17T03:47:00+00:00" time-local="2025-08-17T13:47:00+10:00">11.7</element>
+          <element start-time-local="2025-08-17T18:00:00+10:00" end-time-local="2025-08-18T09:00:00+10:00" start-time-utc="2025-08-17T08:00:00+00:00" end-time-utc="2025-08-17T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00">4.3</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2025-08-17T05:33:00+00:00" time-local="2025-08-17T15:33:00+10:00">15</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2025-08-17T05:33:00+00:00" time-local="2025-08-17T15:33:00+10:00">28</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2025-08-17T05:33:00+00:00" time-local="2025-08-17T15:33:00+10:00">SE</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="94969" bom-id="091237" tz="Australia/Hobart" stn-name="LAUNCESTON (TI TREE BEND)" stn-height="5.00" type="AWS" lat="-41.4194" lon="147.1219" forecast-district-id="TAS_PW004" description="Launceston">
+      <period index="0" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">1.1</element>
+          <element units="Celsius" type="delta_t">1.2</element>
+          <element units="km/h" type="gust_kmh">2</element>
+          <element units="knots" type="wind_gust_spd">1</element>
+          <element units="Celsius" type="air_temperature">3.1</element>
+          <element units="Celsius" type="dew_point">0.0</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">80</element>
+          <element type="wind_dir">CALM</element>
+          <element units="deg" type="wind_dir_deg">0</element>
+          <element units="km/h" type="wind_spd_kmh">0</element>
+          <element units="knots" type="wind_spd">0</element>
+          <element start-time-local="2025-08-17T09:00:00+10:00" end-time-local="2025-08-17T21:31:00+10:00" duration="751" start-time-utc="2025-08-16T23:00:00+00:00" end-time-utc="2025-08-17T11:31:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2025-08-16T09:00:00+10:00" end-time-local="2025-08-17T09:00:00+10:00" duration="1440" start-time-utc="2025-08-15T23:00:00+00:00" end-time-utc="2025-08-16T23:00:00+00:00" units="mm" type="rainfall_24hr">1.0</element>
+          <element start-time-local="2025-08-17T06:00:00+10:00" end-time-local="2025-08-17T21:00:00+10:00" start-time-utc="2025-08-16T20:00:00+00:00" end-time-utc="2025-08-17T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2025-08-17T05:21:00+00:00" time-local="2025-08-17T15:21:00+10:00">12.7</element>
+          <element start-time-local="2025-08-17T18:00:00+10:00" end-time-local="2025-08-18T09:00:00+10:00" start-time-utc="2025-08-17T08:00:00+00:00" end-time-utc="2025-08-17T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00">3.0</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2025-08-17T01:15:00+00:00" time-local="2025-08-17T11:15:00+10:00">14</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2025-08-17T01:15:00+00:00" time-local="2025-08-17T11:15:00+10:00">26</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2025-08-17T01:15:00+00:00" time-local="2025-08-17T11:15:00+10:00">SSE</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="95966" bom-id="091311" tz="Australia/Hobart" stn-name="LAUNCESTON AIRPORT" stn-height="166.90" type="AWS" lat="-41.5476" lon="147.2156" forecast-district-id="TAS_PW004" description="Launceston Airport">
+      <period index="0" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">-0.6</element>
+          <element type="cloud">Partly cloudy</element>
+          <element units="m" type="cloud_base_m">1530</element>
+          <element type="cloud_oktas">5</element>
+          <element units="Celsius" type="delta_t">1.7</element>
+          <element units="km/h" type="gust_kmh">11</element>
+          <element units="knots" type="wind_gust_spd">6</element>
+          <element units="Celsius" type="air_temperature">3.6</element>
+          <element units="Celsius" type="dew_point">-1.0</element>
+          <element units="hPa" type="pres">1023.7</element>
+          <element units="hPa" type="msl_pres">1023.7</element>
+          <element units="hPa" type="qnh_pres">1023.3</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">72</element>
+          <element units="km" type="vis_km">10</element>
+          <element type="wind_dir">S</element>
+          <element units="deg" type="wind_dir_deg">187</element>
+          <element units="km/h" type="wind_spd_kmh">11</element>
+          <element units="knots" type="wind_spd">6</element>
+          <element start-time-local="2025-08-17T09:00:00+10:00" end-time-local="2025-08-17T21:31:00+10:00" duration="751" start-time-utc="2025-08-16T23:00:00+00:00" end-time-utc="2025-08-17T11:31:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2025-08-16T09:00:00+10:00" end-time-local="2025-08-17T09:00:00+10:00" duration="1440" start-time-utc="2025-08-15T23:00:00+00:00" end-time-utc="2025-08-16T23:00:00+00:00" units="mm" type="rainfall_24hr">0.0</element>
+          <element start-time-local="2025-08-17T06:00:00+10:00" end-time-local="2025-08-17T21:00:00+10:00" start-time-utc="2025-08-16T20:00:00+00:00" end-time-utc="2025-08-17T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2025-08-17T04:34:00+00:00" time-local="2025-08-17T14:34:00+10:00">10.9</element>
+          <element start-time-local="2025-08-17T18:00:00+10:00" end-time-local="2025-08-18T09:00:00+10:00" start-time-utc="2025-08-17T08:00:00+00:00" end-time-utc="2025-08-17T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00">3.6</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2025-08-17T03:08:00+00:00" time-local="2025-08-17T13:08:00+10:00">15</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2025-08-17T03:08:00+00:00" time-local="2025-08-17T13:08:00+10:00">28</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2025-08-17T03:08:00+00:00" time-local="2025-08-17T13:08:00+10:00">SE</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="95970" bom-id="091375" tz="Australia/Hobart" stn-name="CRESSY (BRUMBYS CREEK)" stn-height="152.00" type="AWS" lat="-41.7114" lon="147.0820" forecast-district-id="TAS_PW004" description="Cressy">
+      <period index="0" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">-1.1</element>
+          <element units="Celsius" type="delta_t">0.7</element>
+          <element units="km/h" type="gust_kmh">7</element>
+          <element units="knots" type="wind_gust_spd">4</element>
+          <element units="Celsius" type="air_temperature">2.0</element>
+          <element units="Celsius" type="dew_point">0.2</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">88</element>
+          <element type="wind_dir">SSE</element>
+          <element units="deg" type="wind_dir_deg">155</element>
+          <element units="km/h" type="wind_spd_kmh">6</element>
+          <element units="knots" type="wind_spd">3</element>
+          <element start-time-local="2025-08-17T09:00:00+10:00" end-time-local="2025-08-17T21:31:00+10:00" duration="751" start-time-utc="2025-08-16T23:00:00+00:00" end-time-utc="2025-08-17T11:31:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2025-08-16T09:00:00+10:00" end-time-local="2025-08-17T09:00:00+10:00" duration="1440" start-time-utc="2025-08-15T23:00:00+00:00" end-time-utc="2025-08-16T23:00:00+00:00" units="mm" type="rainfall_24hr">0.0</element>
+          <element start-time-local="2025-08-17T06:00:00+10:00" end-time-local="2025-08-17T21:00:00+10:00" start-time-utc="2025-08-16T20:00:00+00:00" end-time-utc="2025-08-17T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2025-08-17T05:02:00+00:00" time-local="2025-08-17T15:02:00+10:00">11.6</element>
+          <element start-time-local="2025-08-17T18:00:00+10:00" end-time-local="2025-08-18T09:00:00+10:00" start-time-utc="2025-08-17T08:00:00+00:00" end-time-utc="2025-08-17T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2025-08-17T11:11:00+00:00" time-local="2025-08-17T21:11:00+10:00">1.6</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2025-08-17T05:56:00+00:00" time-local="2025-08-17T15:56:00+10:00">9</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2025-08-17T05:56:00+00:00" time-local="2025-08-17T15:56:00+10:00">17</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2025-08-17T05:56:00+00:00" time-local="2025-08-17T15:56:00+10:00">ESE</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="94960" bom-id="094195" tz="Australia/Hobart" stn-name="TUNNACK FIRE STATION" stn-height="461.50" type="AWS" lat="-42.4543" lon="147.4612" forecast-district-id="TAS_PW005" description="Tunnack">
+      <period index="0" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">-3.0</element>
+          <element units="Celsius" type="delta_t">0.4</element>
+          <element units="km/h" type="gust_kmh">7</element>
+          <element units="knots" type="wind_gust_spd">4</element>
+          <element units="Celsius" type="air_temperature">0.2</element>
+          <element units="Celsius" type="dew_point">-0.8</element>
+          <element units="hPa" type="pres">1023.5</element>
+          <element units="hPa" type="msl_pres">1023.5</element>
+          <element units="hPa" type="qnh_pres">1022.5</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">93</element>
+          <element type="wind_dir">SW</element>
+          <element units="deg" type="wind_dir_deg">223</element>
+          <element units="km/h" type="wind_spd_kmh">6</element>
+          <element units="knots" type="wind_spd">3</element>
+          <element start-time-local="2025-08-17T09:00:00+10:00" end-time-local="2025-08-17T21:31:00+10:00" duration="751" start-time-utc="2025-08-16T23:00:00+00:00" end-time-utc="2025-08-17T11:31:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2025-08-16T09:00:00+10:00" end-time-local="2025-08-17T09:00:00+10:00" duration="1440" start-time-utc="2025-08-15T23:00:00+00:00" end-time-utc="2025-08-16T23:00:00+00:00" units="mm" type="rainfall_24hr">0.2</element>
+          <element start-time-local="2025-08-17T06:00:00+10:00" end-time-local="2025-08-17T21:00:00+10:00" start-time-utc="2025-08-16T20:00:00+00:00" end-time-utc="2025-08-17T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2025-08-17T03:17:00+00:00" time-local="2025-08-17T13:17:00+10:00">8.4</element>
+          <element start-time-local="2025-08-17T18:00:00+10:00" end-time-local="2025-08-18T09:00:00+10:00" start-time-utc="2025-08-17T08:00:00+00:00" end-time-utc="2025-08-17T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2025-08-17T11:26:00+00:00" time-local="2025-08-17T21:26:00+10:00">-0.1</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2025-08-17T04:51:00+00:00" time-local="2025-08-17T14:51:00+10:00">14</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2025-08-17T04:51:00+00:00" time-local="2025-08-17T14:51:00+10:00">26</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2025-08-17T04:51:00+00:00" time-local="2025-08-17T14:51:00+10:00">SSW</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="95977" bom-id="094220" tz="Australia/Hobart" stn-name="GROVE (RESEARCH STATION)" stn-height="65.00" type="AWS" lat="-42.9844" lon="147.0756" forecast-district-id="TAS_PW006" description="Grove">
+      <period index="0" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">-2.2</element>
+          <element units="Celsius" type="delta_t">0.1</element>
+          <element units="km/h" type="gust_kmh">7</element>
+          <element units="knots" type="wind_gust_spd">4</element>
+          <element units="Celsius" type="air_temperature">0.8</element>
+          <element units="Celsius" type="dew_point">0.5</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">98</element>
+          <element type="wind_dir">NW</element>
+          <element units="deg" type="wind_dir_deg">323</element>
+          <element units="km/h" type="wind_spd_kmh">6</element>
+          <element units="knots" type="wind_spd">3</element>
+          <element start-time-local="2025-08-17T09:00:00+10:00" end-time-local="2025-08-17T21:31:00+10:00" duration="751" start-time-utc="2025-08-16T23:00:00+00:00" end-time-utc="2025-08-17T11:31:00+00:00" units="mm" type="rainfall">0.8</element>
+          <element start-time-local="2025-08-16T09:00:00+10:00" end-time-local="2025-08-17T09:00:00+10:00" duration="1440" start-time-utc="2025-08-15T23:00:00+00:00" end-time-utc="2025-08-16T23:00:00+00:00" units="mm" type="rainfall_24hr">0.2</element>
+          <element start-time-local="2025-08-17T06:00:00+10:00" end-time-local="2025-08-17T21:00:00+10:00" start-time-utc="2025-08-16T20:00:00+00:00" end-time-utc="2025-08-17T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2025-08-17T02:47:00+00:00" time-local="2025-08-17T12:47:00+10:00">10.3</element>
+          <element start-time-local="2025-08-17T18:00:00+10:00" end-time-local="2025-08-18T09:00:00+10:00" start-time-utc="2025-08-17T08:00:00+00:00" end-time-utc="2025-08-17T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2025-08-17T11:18:00+00:00" time-local="2025-08-17T21:18:00+10:00">0.4</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2025-08-17T03:10:00+00:00" time-local="2025-08-17T13:10:00+10:00">11</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2025-08-17T03:10:00+00:00" time-local="2025-08-17T13:10:00+10:00">20</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2025-08-17T03:10:00+00:00" time-local="2025-08-17T13:10:00+10:00">SSE</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="94977" bom-id="094191" tz="Australia/Hobart" stn-name="HARTZ MOUNTAIN (KEOGHS PIMPLE)" stn-height="831.00" type="AWS" lat="-43.2006" lon="146.7683" forecast-district-id="TAS_PW006" description="Hartz Mountains">
+      <period index="0" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">-8.6</element>
+          <element units="Celsius" type="delta_t">0.4</element>
+          <element units="km/h" type="gust_kmh">46</element>
+          <element units="knots" type="wind_gust_spd">25</element>
+          <element units="Celsius" type="air_temperature">-0.2</element>
+          <element units="Celsius" type="dew_point">-1.2</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">93</element>
+          <element type="wind_dir">SW</element>
+          <element units="deg" type="wind_dir_deg">226</element>
+          <element units="km/h" type="wind_spd_kmh">33</element>
+          <element units="knots" type="wind_spd">18</element>
+          <element start-time-local="2025-08-17T09:00:00+10:00" end-time-local="2025-08-17T21:31:00+10:00" duration="751" start-time-utc="2025-08-16T23:00:00+00:00" end-time-utc="2025-08-17T11:31:00+00:00" units="mm" type="rainfall">3.0</element>
+          <element start-time-local="2025-08-16T09:00:00+10:00" end-time-local="2025-08-17T09:00:00+10:00" duration="1440" start-time-utc="2025-08-15T23:00:00+00:00" end-time-utc="2025-08-16T23:00:00+00:00" units="mm" type="rainfall_24hr">15.4</element>
+          <element start-time-local="2025-08-17T06:00:00+10:00" end-time-local="2025-08-17T21:00:00+10:00" start-time-utc="2025-08-16T20:00:00+00:00" end-time-utc="2025-08-17T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2025-08-17T03:30:00+00:00" time-local="2025-08-17T13:30:00+10:00">1.8</element>
+          <element start-time-local="2025-08-17T18:00:00+10:00" end-time-local="2025-08-18T09:00:00+10:00" start-time-utc="2025-08-17T08:00:00+00:00" end-time-utc="2025-08-17T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00">-0.2</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2025-08-17T11:03:00+00:00" time-local="2025-08-17T21:03:00+10:00">26</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2025-08-17T11:03:00+00:00" time-local="2025-08-17T21:03:00+10:00">48</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2025-08-17T11:03:00+00:00" time-local="2025-08-17T21:03:00+10:00">SW</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="94951" bom-id="094254" tz="Australia/Hobart" stn-name="DUNALLEY (STROUD POINT)" stn-height="12.43" type="AWS" lat="-42.9017" lon="147.7894" forecast-district-id="TAS_PW006" description="Dunalley">
+      <period index="0" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">1.6</element>
+          <element units="Celsius" type="delta_t">1.7</element>
+          <element units="km/h" type="gust_kmh">32</element>
+          <element units="knots" type="wind_gust_spd">17</element>
+          <element units="Celsius" type="air_temperature">7.9</element>
+          <element units="Celsius" type="dew_point">3.9</element>
+          <element units="hPa" type="pres">1023.5</element>
+          <element units="hPa" type="msl_pres">1023.5</element>
+          <element units="hPa" type="qnh_pres">1023.4</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">76</element>
+          <element type="wind_dir">WSW</element>
+          <element units="deg" type="wind_dir_deg">251</element>
+          <element units="km/h" type="wind_spd_kmh">26</element>
+          <element units="knots" type="wind_spd">14</element>
+          <element start-time-local="2025-08-17T09:00:00+10:00" end-time-local="2025-08-17T21:31:00+10:00" duration="751" start-time-utc="2025-08-16T23:00:00+00:00" end-time-utc="2025-08-17T11:31:00+00:00" units="mm" type="rainfall">0.2</element>
+          <element start-time-local="2025-08-16T09:00:00+10:00" end-time-local="2025-08-17T09:00:00+10:00" duration="1440" start-time-utc="2025-08-15T23:00:00+00:00" end-time-utc="2025-08-16T23:00:00+00:00" units="mm" type="rainfall_24hr">0.6</element>
+          <element start-time-local="2025-08-17T06:00:00+10:00" end-time-local="2025-08-17T21:00:00+10:00" start-time-utc="2025-08-16T20:00:00+00:00" end-time-utc="2025-08-17T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2025-08-17T03:56:00+00:00" time-local="2025-08-17T13:56:00+10:00">10.7</element>
+          <element start-time-local="2025-08-17T18:00:00+10:00" end-time-local="2025-08-18T09:00:00+10:00" start-time-utc="2025-08-17T08:00:00+00:00" end-time-utc="2025-08-17T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2025-08-17T10:55:00+00:00" time-local="2025-08-17T20:55:00+10:00">7.7</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2025-08-17T06:14:00+00:00" time-local="2025-08-17T16:14:00+10:00">22</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2025-08-17T06:14:00+00:00" time-local="2025-08-17T16:14:00+10:00">41</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2025-08-17T06:14:00+00:00" time-local="2025-08-17T16:14:00+10:00">SSW</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="94988" bom-id="094255" tz="Australia/Hobart" stn-name="DENNES POINT" stn-height="5.67" type="AWS" lat="-43.0639" lon="147.3567" forecast-district-id="TAS_PW006" description="Dennes Point">
+      <period index="0" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">3.5</element>
+          <element units="Celsius" type="delta_t">1.4</element>
+          <element units="km/h" type="gust_kmh">11</element>
+          <element units="knots" type="wind_gust_spd">6</element>
+          <element units="Celsius" type="air_temperature">6.3</element>
+          <element units="Celsius" type="dew_point">2.9</element>
+          <element units="hPa" type="pres">1024.0</element>
+          <element units="hPa" type="msl_pres">1024.0</element>
+          <element units="hPa" type="qnh_pres">1024.0</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">79</element>
+          <element type="wind_dir">W</element>
+          <element units="deg" type="wind_dir_deg">260</element>
+          <element units="km/h" type="wind_spd_kmh">7</element>
+          <element units="knots" type="wind_spd">4</element>
+          <element start-time-local="2025-08-17T09:00:00+10:00" end-time-local="2025-08-17T21:31:00+10:00" duration="751" start-time-utc="2025-08-16T23:00:00+00:00" end-time-utc="2025-08-17T11:31:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2025-08-16T09:00:00+10:00" end-time-local="2025-08-17T09:00:00+10:00" duration="1440" start-time-utc="2025-08-15T23:00:00+00:00" end-time-utc="2025-08-16T23:00:00+00:00" units="mm" type="rainfall_24hr">1.2</element>
+          <element start-time-local="2025-08-17T06:00:00+10:00" end-time-local="2025-08-17T21:00:00+10:00" start-time-utc="2025-08-16T20:00:00+00:00" end-time-utc="2025-08-17T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2025-08-17T02:30:00+00:00" time-local="2025-08-17T12:30:00+10:00">11.1</element>
+          <element start-time-local="2025-08-17T18:00:00+10:00" end-time-local="2025-08-18T09:00:00+10:00" start-time-utc="2025-08-17T08:00:00+00:00" end-time-utc="2025-08-17T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2025-08-17T10:37:00+00:00" time-local="2025-08-17T20:37:00+10:00">5.2</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2025-08-17T05:46:00+00:00" time-local="2025-08-17T15:46:00+10:00">16</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2025-08-17T05:46:00+00:00" time-local="2025-08-17T15:46:00+10:00">30</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2025-08-17T05:46:00+00:00" time-local="2025-08-17T15:46:00+10:00">SSW</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="94964" bom-id="095003" tz="Australia/Hobart" stn-name="BUSHY PARK (BUSHY PARK ESTATES)" stn-height="27.00" type="AWS" lat="-42.7097" lon="146.8983" forecast-district-id="TAS_PW007" description="Bushy Park">
+      <period index="0" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">-1.3</element>
+          <element units="Celsius" type="delta_t">0.5</element>
+          <element units="km/h" type="gust_kmh">0</element>
+          <element units="knots" type="wind_gust_spd">0</element>
+          <element units="Celsius" type="air_temperature">0.8</element>
+          <element units="Celsius" type="dew_point">-0.6</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">90</element>
+          <element type="wind_dir">CALM</element>
+          <element units="deg" type="wind_dir_deg">0</element>
+          <element units="km/h" type="wind_spd_kmh">0</element>
+          <element units="knots" type="wind_spd">0</element>
+          <element start-time-local="2025-08-17T09:00:00+10:00" end-time-local="2025-08-17T21:31:00+10:00" duration="751" start-time-utc="2025-08-16T23:00:00+00:00" end-time-utc="2025-08-17T11:31:00+00:00" units="mm" type="rainfall">0.2</element>
+          <element start-time-local="2025-08-16T09:00:00+10:00" end-time-local="2025-08-17T09:00:00+10:00" duration="1440" start-time-utc="2025-08-15T23:00:00+00:00" end-time-utc="2025-08-16T23:00:00+00:00" units="mm" type="rainfall_24hr">0.0</element>
+          <element start-time-local="2025-08-17T06:00:00+10:00" end-time-local="2025-08-17T21:00:00+10:00" start-time-utc="2025-08-16T20:00:00+00:00" end-time-utc="2025-08-17T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2025-08-17T06:22:00+00:00" time-local="2025-08-17T16:22:00+10:00">11.4</element>
+          <element start-time-local="2025-08-17T18:00:00+10:00" end-time-local="2025-08-18T09:00:00+10:00" start-time-utc="2025-08-17T08:00:00+00:00" end-time-utc="2025-08-17T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00">0.8</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2025-08-17T06:23:00+00:00" time-local="2025-08-17T16:23:00+10:00">14</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2025-08-17T06:23:00+00:00" time-local="2025-08-17T16:23:00+10:00">26</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2025-08-17T06:23:00+00:00" time-local="2025-08-17T16:23:00+10:00">SSW</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="94959" bom-id="096003" tz="Australia/Hobart" stn-name="BUTLERS GORGE" stn-height="667.00" type="AWS" lat="-42.2753" lon="146.2758" forecast-district-id="TAS_PW008" description="Butlers Gorge">
+      <period index="0" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">-3.7</element>
+          <element units="Celsius" type="delta_t">0.0</element>
+          <element units="km/h" type="gust_kmh">0</element>
+          <element units="knots" type="wind_gust_spd">0</element>
+          <element units="Celsius" type="air_temperature">-1.5</element>
+          <element units="Celsius" type="dew_point">-1.6</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">99</element>
+          <element type="wind_dir">CALM</element>
+          <element units="deg" type="wind_dir_deg">0</element>
+          <element units="km/h" type="wind_spd_kmh">0</element>
+          <element units="knots" type="wind_spd">0</element>
+          <element start-time-local="2025-08-17T09:00:00+10:00" end-time-local="2025-08-17T21:31:00+10:00" duration="751" start-time-utc="2025-08-16T23:00:00+00:00" end-time-utc="2025-08-17T11:31:00+00:00" units="mm" type="rainfall">0.6</element>
+          <element start-time-local="2025-08-16T09:00:00+10:00" end-time-local="2025-08-17T09:00:00+10:00" duration="1440" start-time-utc="2025-08-15T23:00:00+00:00" end-time-utc="2025-08-16T23:00:00+00:00" units="mm" type="rainfall_24hr">11.6</element>
+          <element start-time-local="2025-08-17T06:00:00+10:00" end-time-local="2025-08-17T21:00:00+10:00" start-time-utc="2025-08-16T20:00:00+00:00" end-time-utc="2025-08-17T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2025-08-17T04:09:00+00:00" time-local="2025-08-17T14:09:00+10:00">6.2</element>
+          <element start-time-local="2025-08-17T18:00:00+10:00" end-time-local="2025-08-18T09:00:00+10:00" start-time-utc="2025-08-17T08:00:00+00:00" end-time-utc="2025-08-17T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2025-08-17T10:57:00+00:00" time-local="2025-08-17T20:57:00+10:00">-1.9</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2025-08-17T03:09:00+00:00" time-local="2025-08-17T13:09:00+10:00">17</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2025-08-17T03:09:00+00:00" time-local="2025-08-17T13:09:00+10:00">32</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2025-08-17T03:09:00+00:00" time-local="2025-08-17T13:09:00+10:00">W</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="95952" bom-id="097085" tz="Australia/Hobart" stn-name="MOUNT READ" stn-height="1119.50" type="AWS" lat="-41.8444" lon="145.5417" forecast-district-id="TAS_PW009" description="Mount Read">
+      <period index="0" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">-3.7</element>
+          <element units="Celsius" type="delta_t">0.0</element>
+          <element units="km/h" type="gust_kmh">0</element>
+          <element units="knots" type="wind_gust_spd">0</element>
+          <element units="Celsius" type="air_temperature">-1.5</element>
+          <element units="Celsius" type="dew_point">-1.5</element>
+          <element units="hPa" type="pres">1023.4</element>
+          <element units="hPa" type="msl_pres">1023.4</element>
+          <element units="hPa" type="qnh_pres">1021.0</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">100</element>
+          <element type="wind_dir">CALM</element>
+          <element units="deg" type="wind_dir_deg">0</element>
+          <element units="km/h" type="wind_spd_kmh">0</element>
+          <element units="knots" type="wind_spd">0</element>
+          <element start-time-local="2025-08-17T09:00:00+10:00" end-time-local="2025-08-17T21:31:00+10:00" duration="751" start-time-utc="2025-08-16T23:00:00+00:00" end-time-utc="2025-08-17T11:31:00+00:00" units="mm" type="rainfall">9.8</element>
+          <element start-time-local="2025-08-17T06:00:00+10:00" end-time-local="2025-08-17T21:00:00+10:00" start-time-utc="2025-08-16T20:00:00+00:00" end-time-utc="2025-08-17T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2025-08-17T04:06:00+00:00" time-local="2025-08-17T14:06:00+10:00">0.2</element>
+          <element start-time-local="2025-08-17T18:00:00+10:00" end-time-local="2025-08-18T09:00:00+10:00" start-time-utc="2025-08-17T08:00:00+00:00" end-time-utc="2025-08-17T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00">-1.6</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2025-08-17T07:47:00+00:00" time-local="2025-08-17T17:47:00+10:00">19</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2025-08-17T07:47:00+00:00" time-local="2025-08-17T17:47:00+10:00">35</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2025-08-17T07:47:00+00:00" time-local="2025-08-17T17:47:00+10:00">S</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="95958" bom-id="097083" tz="Australia/Hobart" stn-name="SCOTTS PEAK DAM" stn-height="408.00" type="AWS" lat="-43.0425" lon="146.2722" forecast-district-id="TAS_PW009" description="Scotts Peak">
+      <period index="0" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">-0.3</element>
+          <element units="Celsius" type="delta_t">0.5</element>
+          <element units="km/h" type="gust_kmh">15</element>
+          <element units="knots" type="wind_gust_spd">8</element>
+          <element units="Celsius" type="air_temperature">3.1</element>
+          <element units="Celsius" type="dew_point">1.8</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">91</element>
+          <element type="wind_dir">W</element>
+          <element units="deg" type="wind_dir_deg">277</element>
+          <element units="km/h" type="wind_spd_kmh">9</element>
+          <element units="knots" type="wind_spd">5</element>
+          <element start-time-local="2025-08-17T09:00:00+10:00" end-time-local="2025-08-17T21:31:00+10:00" duration="751" start-time-utc="2025-08-16T23:00:00+00:00" end-time-utc="2025-08-17T11:31:00+00:00" units="mm" type="rainfall">1.0</element>
+          <element start-time-local="2025-08-17T06:00:00+10:00" end-time-local="2025-08-17T21:00:00+10:00" start-time-utc="2025-08-16T20:00:00+00:00" end-time-utc="2025-08-17T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2025-08-17T03:55:00+00:00" time-local="2025-08-17T13:55:00+10:00">8.5</element>
+          <element start-time-local="2025-08-17T18:00:00+10:00" end-time-local="2025-08-18T09:00:00+10:00" start-time-utc="2025-08-17T08:00:00+00:00" end-time-utc="2025-08-17T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2025-08-17T10:26:00+00:00" time-local="2025-08-17T20:26:00+10:00">2.5</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2025-08-17T06:18:00+00:00" time-local="2025-08-17T16:18:00+10:00">18</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2025-08-17T06:18:00+00:00" time-local="2025-08-17T16:18:00+10:00">33</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2025-08-17T06:18:00+00:00" time-local="2025-08-17T16:18:00+10:00">SW</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="95962" bom-id="097024" tz="Australia/Hobart" stn-name="WARRA" stn-height="495.00" type="AWS" lat="-43.0609" lon="146.7040" forecast-district-id="TAS_PW009" description="Warra">
+      <period index="0" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">-2.0</element>
+          <element units="Celsius" type="delta_t">0.7</element>
+          <element units="km/h" type="gust_kmh">24</element>
+          <element units="knots" type="wind_gust_spd">13</element>
+          <element units="Celsius" type="air_temperature">2.4</element>
+          <element units="Celsius" type="dew_point">0.6</element>
+          <element units="mm" type="rain_hour">0.2</element>
+          <element units="mm" type="rain_ten">0.2</element>
+          <element units="%" type="rel-humidity">88</element>
+          <element type="wind_dir">W</element>
+          <element units="deg" type="wind_dir_deg">265</element>
+          <element units="km/h" type="wind_spd_kmh">13</element>
+          <element units="knots" type="wind_spd">7</element>
+          <element start-time-local="2025-08-17T09:00:00+10:00" end-time-local="2025-08-17T21:31:00+10:00" duration="751" start-time-utc="2025-08-16T23:00:00+00:00" end-time-utc="2025-08-17T11:31:00+00:00" units="mm" type="rainfall">0.4</element>
+          <element start-time-local="2025-08-16T09:00:00+10:00" end-time-local="2025-08-17T09:00:00+10:00" duration="1440" start-time-utc="2025-08-15T23:00:00+00:00" end-time-utc="2025-08-16T23:00:00+00:00" units="mm" type="rainfall_24hr">6.6</element>
+          <element start-time-local="2025-08-17T06:00:00+10:00" end-time-local="2025-08-17T21:00:00+10:00" start-time-utc="2025-08-16T20:00:00+00:00" end-time-utc="2025-08-17T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2025-08-17T04:41:00+00:00" time-local="2025-08-17T14:41:00+10:00">7.5</element>
+          <element start-time-local="2025-08-17T18:00:00+10:00" end-time-local="2025-08-18T09:00:00+10:00" start-time-utc="2025-08-17T08:00:00+00:00" end-time-utc="2025-08-17T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2025-08-17T10:23:00+00:00" time-local="2025-08-17T20:23:00+10:00">1.4</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2025-08-17T06:08:00+00:00" time-local="2025-08-17T16:08:00+10:00">15</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2025-08-17T06:08:00+00:00" time-local="2025-08-17T16:08:00+10:00">28</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2025-08-17T06:08:00+00:00" time-local="2025-08-17T16:08:00+10:00">WSW</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="95954" bom-id="091331" tz="Australia/Hobart" stn-name="KENNAOOK/CAPE GRIM" stn-height="86.00" type="AWS" lat="-40.6764" lon="144.6922" forecast-district-id="TAS_PW010" description="Kennaook / Cape Grim">
+      <period index="0" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">2.5</element>
+          <element type="cloud">Cloudy</element>
+          <element units="m" type="cloud_base_m">1110</element>
+          <element type="cloud_oktas">8</element>
+          <element units="Celsius" type="delta_t">2.4</element>
+          <element units="km/h" type="gust_kmh">26</element>
+          <element units="knots" type="wind_gust_spd">14</element>
+          <element units="Celsius" type="air_temperature">7.8</element>
+          <element units="Celsius" type="dew_point">1.9</element>
+          <element units="hPa" type="pres">1024.7</element>
+          <element units="hPa" type="msl_pres">1024.7</element>
+          <element units="hPa" type="qnh_pres">1024.6</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">66</element>
+          <element type="wind_dir">SSE</element>
+          <element units="deg" type="wind_dir_deg">164</element>
+          <element units="km/h" type="wind_spd_kmh">19</element>
+          <element units="knots" type="wind_spd">10</element>
+          <element start-time-local="2025-08-17T09:00:00+10:00" end-time-local="2025-08-17T21:31:00+10:00" duration="751" start-time-utc="2025-08-16T23:00:00+00:00" end-time-utc="2025-08-17T11:31:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2025-08-16T09:00:00+10:00" end-time-local="2025-08-17T09:00:00+10:00" duration="1440" start-time-utc="2025-08-15T23:00:00+00:00" end-time-utc="2025-08-16T23:00:00+00:00" units="mm" type="rainfall_24hr">0.0</element>
+          <element start-time-local="2025-08-17T06:00:00+10:00" end-time-local="2025-08-17T21:00:00+10:00" start-time-utc="2025-08-16T20:00:00+00:00" end-time-utc="2025-08-17T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2025-08-17T03:36:00+00:00" time-local="2025-08-17T13:36:00+10:00">10.7</element>
+          <element start-time-local="2025-08-17T18:00:00+10:00" end-time-local="2025-08-18T09:00:00+10:00" start-time-utc="2025-08-17T08:00:00+00:00" end-time-utc="2025-08-17T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2025-08-17T10:12:00+00:00" time-local="2025-08-17T20:12:00+10:00">6.9</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2025-08-17T07:02:00+00:00" time-local="2025-08-17T17:02:00+10:00">25</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2025-08-17T07:02:00+00:00" time-local="2025-08-17T17:02:00+10:00">46</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2025-08-17T07:02:00+00:00" time-local="2025-08-17T17:02:00+10:00">SSW</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="95957" bom-id="091107" tz="Australia/Hobart" stn-name="WYNYARD AIRPORT" stn-height="12.00" type="AWS" lat="-40.9964" lon="145.7311" forecast-district-id="TAS_PW010" description="Wynyard">
+      <period index="0" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">0.4</element>
+          <element type="cloud">Clear</element>
+          <element type="cloud_oktas">0</element>
+          <element units="Celsius" type="delta_t">0.8</element>
+          <element units="km/h" type="gust_kmh">17</element>
+          <element units="knots" type="wind_gust_spd">9</element>
+          <element units="Celsius" type="air_temperature">4.5</element>
+          <element units="Celsius" type="dew_point">2.4</element>
+          <element units="hPa" type="pres">1023.8</element>
+          <element units="hPa" type="msl_pres">1023.8</element>
+          <element units="hPa" type="qnh_pres">1023.8</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">86</element>
+          <element units="km" type="vis_km">10</element>
+          <element type="wind_dir">WNW</element>
+          <element units="deg" type="wind_dir_deg">289</element>
+          <element units="km/h" type="wind_spd_kmh">13</element>
+          <element units="knots" type="wind_spd">7</element>
+          <element start-time-local="2025-08-17T09:00:00+10:00" end-time-local="2025-08-17T21:32:00+10:00" duration="752" start-time-utc="2025-08-16T23:00:00+00:00" end-time-utc="2025-08-17T11:32:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2025-08-16T09:00:00+10:00" end-time-local="2025-08-17T09:00:00+10:00" duration="1440" start-time-utc="2025-08-15T23:00:00+00:00" end-time-utc="2025-08-16T23:00:00+00:00" units="mm" type="rainfall_24hr">0.2</element>
+          <element start-time-local="2025-08-17T06:00:00+10:00" end-time-local="2025-08-17T21:00:00+10:00" start-time-utc="2025-08-16T20:00:00+00:00" end-time-utc="2025-08-17T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2025-08-17T03:22:00+00:00" time-local="2025-08-17T13:22:00+10:00">11.3</element>
+          <element start-time-local="2025-08-17T18:00:00+10:00" end-time-local="2025-08-18T09:00:00+10:00" start-time-utc="2025-08-17T08:00:00+00:00" end-time-utc="2025-08-17T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2025-08-17T09:51:00+00:00" time-local="2025-08-17T19:51:00+10:00">2.8</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2025-08-17T05:07:00+00:00" time-local="2025-08-17T15:07:00+10:00">11</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2025-08-17T05:07:00+00:00" time-local="2025-08-17T15:07:00+10:00">20</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2025-08-17T05:07:00+00:00" time-local="2025-08-17T15:07:00+10:00">N</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="95963" bom-id="091344" tz="Australia/Hobart" stn-name="BURNIE NTC AWS" stn-height="0.00" type="AWS" lat="-41.0500" lon="145.9149" forecast-district-id="TAS_MW002" description="Burnie Port">
+      <period index="0" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">24</element>
+          <element units="knots" type="wind_gust_spd">13</element>
+          <element units="Celsius" type="air_temperature">7.2</element>
+          <element units="hPa" type="pres">1023.4</element>
+          <element units="hPa" type="msl_pres">1023.4</element>
+          <element units="hPa" type="qnh_pres">1023.4</element>
+          <element type="wind_dir">S</element>
+          <element units="deg" type="wind_dir_deg">190</element>
+          <element units="km/h" type="wind_spd_kmh">19</element>
+          <element units="knots" type="wind_spd">10</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="95956" bom-id="091259" tz="Australia/Hobart" stn-name="LUNCHEON HILL (FORESTRY)" stn-height="344.00" type="AWS" lat="-41.1492" lon="145.1517" forecast-district-id="TAS_PW010" description="Luncheon Hill">
+      <period index="0" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">-3.2</element>
+          <element units="Celsius" type="delta_t">0.6</element>
+          <element units="km/h" type="gust_kmh">26</element>
+          <element units="knots" type="wind_gust_spd">14</element>
+          <element units="Celsius" type="air_temperature">2.3</element>
+          <element units="Celsius" type="dew_point">0.8</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">90</element>
+          <element type="wind_dir">SSE</element>
+          <element units="deg" type="wind_dir_deg">168</element>
+          <element units="km/h" type="wind_spd_kmh">19</element>
+          <element units="knots" type="wind_spd">10</element>
+          <element start-time-local="2025-08-17T09:00:00+10:00" end-time-local="2025-08-17T21:31:00+10:00" duration="751" start-time-utc="2025-08-16T23:00:00+00:00" end-time-utc="2025-08-17T11:31:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2025-08-16T09:00:00+10:00" end-time-local="2025-08-17T09:00:00+10:00" duration="1440" start-time-utc="2025-08-15T23:00:00+00:00" end-time-utc="2025-08-16T23:00:00+00:00" units="mm" type="rainfall_24hr">3.6</element>
+          <element start-time-local="2025-08-17T06:00:00+10:00" end-time-local="2025-08-17T21:00:00+10:00" start-time-utc="2025-08-16T20:00:00+00:00" end-time-utc="2025-08-17T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2025-08-17T04:52:00+00:00" time-local="2025-08-17T14:52:00+10:00">11.6</element>
+          <element start-time-local="2025-08-17T18:00:00+10:00" end-time-local="2025-08-18T09:00:00+10:00" start-time-utc="2025-08-17T08:00:00+00:00" end-time-utc="2025-08-17T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00">2.2</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2025-08-17T11:02:00+00:00" time-local="2025-08-17T21:02:00+10:00">17</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2025-08-17T11:02:00+00:00" time-local="2025-08-17T21:02:00+10:00">32</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2025-08-17T11:02:00+00:00" time-local="2025-08-17T21:02:00+10:00">SSE</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="95960" bom-id="091126" tz="Australia/Hobart" stn-name="DEVONPORT AIRPORT" stn-height="8.00" type="AWS" lat="-41.1701" lon="146.4289" forecast-district-id="TAS_PW010" description="Devonport Airport">
+      <period index="0" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">-2.5</element>
+          <element type="cloud">Clear</element>
+          <element type="cloud_oktas">0</element>
+          <element units="Celsius" type="delta_t">0.9</element>
+          <element units="km/h" type="gust_kmh">20</element>
+          <element units="knots" type="wind_gust_spd">11</element>
+          <element units="Celsius" type="air_temperature">2.7</element>
+          <element units="Celsius" type="dew_point">0.4</element>
+          <element units="hPa" type="pres">1024.1</element>
+          <element units="hPa" type="msl_pres">1024.1</element>
+          <element units="hPa" type="qnh_pres">1024.1</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">85</element>
+          <element units="km" type="vis_km">10</element>
+          <element type="wind_dir">SSE</element>
+          <element units="deg" type="wind_dir_deg">166</element>
+          <element units="km/h" type="wind_spd_kmh">17</element>
+          <element units="knots" type="wind_spd">9</element>
+          <element start-time-local="2025-08-17T09:00:00+10:00" end-time-local="2025-08-17T21:32:00+10:00" duration="752" start-time-utc="2025-08-16T23:00:00+00:00" end-time-utc="2025-08-17T11:32:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2025-08-16T09:00:00+10:00" end-time-local="2025-08-17T09:00:00+10:00" duration="1440" start-time-utc="2025-08-15T23:00:00+00:00" end-time-utc="2025-08-16T23:00:00+00:00" units="mm" type="rainfall_24hr">0.0</element>
+          <element start-time-local="2025-08-17T06:00:00+10:00" end-time-local="2025-08-17T21:00:00+10:00" start-time-utc="2025-08-16T20:00:00+00:00" end-time-utc="2025-08-17T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2025-08-17T03:29:00+00:00" time-local="2025-08-17T13:29:00+10:00">12.6</element>
+          <element start-time-local="2025-08-17T18:00:00+10:00" end-time-local="2025-08-18T09:00:00+10:00" start-time-utc="2025-08-17T08:00:00+00:00" end-time-utc="2025-08-17T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2025-08-17T11:01:00+00:00" time-local="2025-08-17T21:01:00+10:00">2.5</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2025-08-16T22:44:00+00:00" time-local="2025-08-17T08:44:00+10:00">15</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2025-08-16T22:44:00+00:00" time-local="2025-08-17T08:44:00+10:00">28</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2025-08-16T22:44:00+00:00" time-local="2025-08-17T08:44:00+10:00">SSE</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="94955" bom-id="091291" tz="Australia/Hobart" stn-name="SHEFFIELD SCHOOL FARM" stn-height="277.29" type="AWS" lat="-41.3890" lon="146.3173" forecast-district-id="TAS_PW010" description="Sheffield">
+      <period index="0" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">0.5</element>
+          <element units="Celsius" type="delta_t">1.0</element>
+          <element units="km/h" type="gust_kmh">0</element>
+          <element units="knots" type="wind_gust_spd">0</element>
+          <element units="Celsius" type="air_temperature">2.5</element>
+          <element units="Celsius" type="dew_point">-0.1</element>
+          <element units="hPa" type="pres">1023.7</element>
+          <element units="hPa" type="msl_pres">1023.7</element>
+          <element units="hPa" type="qnh_pres">1023.1</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">83</element>
+          <element type="wind_dir">CALM</element>
+          <element units="deg" type="wind_dir_deg">0</element>
+          <element units="km/h" type="wind_spd_kmh">0</element>
+          <element units="knots" type="wind_spd">0</element>
+          <element start-time-local="2025-08-17T09:00:00+10:00" end-time-local="2025-08-17T21:31:00+10:00" duration="751" start-time-utc="2025-08-16T23:00:00+00:00" end-time-utc="2025-08-17T11:31:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2025-08-16T09:00:00+10:00" end-time-local="2025-08-17T09:00:00+10:00" duration="1440" start-time-utc="2025-08-15T23:00:00+00:00" end-time-utc="2025-08-16T23:00:00+00:00" units="mm" type="rainfall_24hr">0.2</element>
+          <element start-time-local="2025-08-17T06:00:00+10:00" end-time-local="2025-08-17T21:00:00+10:00" start-time-utc="2025-08-16T20:00:00+00:00" end-time-utc="2025-08-17T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2025-08-17T05:41:00+00:00" time-local="2025-08-17T15:41:00+10:00">10.8</element>
+          <element start-time-local="2025-08-17T18:00:00+10:00" end-time-local="2025-08-18T09:00:00+10:00" start-time-utc="2025-08-17T08:00:00+00:00" end-time-utc="2025-08-17T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2025-08-17T10:58:00+00:00" time-local="2025-08-17T20:58:00+10:00">1.9</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2025-08-17T06:02:00+00:00" time-local="2025-08-17T16:02:00+10:00">10</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2025-08-17T06:02:00+00:00" time-local="2025-08-17T16:02:00+10:00">19</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2025-08-17T06:02:00+00:00" time-local="2025-08-17T16:02:00+10:00">N</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="94850" bom-id="098017" tz="Australia/Hobart" stn-name="KING ISLAND AIRPORT" stn-height="35.42" type="AWS" lat="-39.8804" lon="143.8857" forecast-district-id="TAS_PW011" description="King Island Airport">
+      <period index="0" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">5.9</element>
+          <element type="cloud">Cloudy</element>
+          <element units="m" type="cloud_base_m">1230</element>
+          <element type="cloud_oktas">8</element>
+          <element units="Celsius" type="delta_t">3.1</element>
+          <element units="km/h" type="gust_kmh">13</element>
+          <element units="knots" type="wind_gust_spd">7</element>
+          <element units="Celsius" type="air_temperature">9.3</element>
+          <element units="Celsius" type="dew_point">1.9</element>
+          <element units="hPa" type="pres">1025.3</element>
+          <element units="hPa" type="msl_pres">1025.3</element>
+          <element units="hPa" type="qnh_pres">1025.3</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">60</element>
+          <element units="km" type="vis_km">10</element>
+          <element type="wind_dir">S</element>
+          <element units="deg" type="wind_dir_deg">178</element>
+          <element units="km/h" type="wind_spd_kmh">9</element>
+          <element units="knots" type="wind_spd">5</element>
+          <element start-time-local="2025-08-17T09:00:00+10:00" end-time-local="2025-08-17T21:31:00+10:00" duration="751" start-time-utc="2025-08-16T23:00:00+00:00" end-time-utc="2025-08-17T11:31:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2025-08-16T09:00:00+10:00" end-time-local="2025-08-17T09:00:00+10:00" duration="1440" start-time-utc="2025-08-15T23:00:00+00:00" end-time-utc="2025-08-16T23:00:00+00:00" units="mm" type="rainfall_24hr">0.2</element>
+          <element start-time-local="2025-08-17T06:00:00+10:00" end-time-local="2025-08-17T21:00:00+10:00" start-time-utc="2025-08-16T20:00:00+00:00" end-time-utc="2025-08-17T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2025-08-17T02:46:00+00:00" time-local="2025-08-17T12:46:00+10:00">13.6</element>
+          <element start-time-local="2025-08-17T18:00:00+10:00" end-time-local="2025-08-18T09:00:00+10:00" start-time-utc="2025-08-17T08:00:00+00:00" end-time-utc="2025-08-17T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2025-08-17T09:05:00+00:00" time-local="2025-08-17T19:05:00+10:00">8.5</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2025-08-17T01:25:00+00:00" time-local="2025-08-17T11:25:00+10:00">16</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2025-08-17T01:25:00+00:00" time-local="2025-08-17T11:25:00+10:00">30</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2025-08-17T01:25:00+00:00" time-local="2025-08-17T11:25:00+10:00">E</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="89817" bom-id="300061" tz="UTC" stn-name="BUNGER HILLS" stn-height="12.00" type="AWS" lat="-66.2510" lon="100.6000" forecast-district-id="TAS_FA001" description="Bunger Hills">
+      <period index="0" time-utc="2025-08-14T22:30:00+00:00" time-local="2025-08-14T22:30:00+00:00" wind-src="synop">
+        <level index="0" type="surface">
+          <element units="Celsius" type="air_temperature">-16.6</element>
+          <element type="wind_dir">ESE</element>
+          <element units="deg" type="wind_dir_deg">120</element>
+          <element units="km/h" type="wind_spd_kmh">6</element>
+          <element units="knots" type="wind_spd">3</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="89611" bom-id="300017" tz="Australia/Casey" stn-name="CASEY" stn-height="40.00" type="AWS" lat="-66.2825" lon="110.5231" forecast-district-id="TAS_FA001" description="Casey">
+      <period index="0" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T19:30:00+08:00" wind-src="OMD">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">-19.3</element>
+          <element type="cloud">Partly cloudy</element>
+          <element type="cloud_oktas">3</element>
+          <element units="km/h" type="gust_kmh">0</element>
+          <element units="knots" type="wind_gust_spd">0</element>
+          <element units="Celsius" type="air_temperature">-15.8</element>
+          <element units="Celsius" type="dew_point">-18.3</element>
+          <element units="hPa" type="pres">975.1</element>
+          <element units="hPa" type="msl_pres">975.1</element>
+          <element units="hPa" type="qnh_pres">974.6</element>
+          <element units="%" type="rel-humidity">81</element>
+          <element units="km" type="vis_km">44</element>
+          <element type="wind_dir">CALM</element>
+          <element units="deg" type="wind_dir_deg">0</element>
+          <element units="km/h" type="wind_spd_kmh">0</element>
+          <element units="knots" type="wind_spd">0</element>
+          <element start-time-local="2025-08-17T06:00:00+08:00" end-time-local="2025-08-17T21:00:00+08:00" start-time-utc="2025-08-16T22:00:00+00:00" end-time-utc="2025-08-17T13:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T19:30:00+08:00">-15.8</element>
+          <element start-time-local="2025-08-17T18:00:00+08:00" end-time-local="2025-08-18T09:00:00+08:00" start-time-utc="2025-08-17T10:00:00+00:00" end-time-utc="2025-08-18T01:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2025-08-17T10:00:00+00:00" time-local="2025-08-17T18:00:00+08:00">-16.7</element>
+          <element start-time-local="2025-08-17T00:00:00+08:00" end-time-local="2025-08-18T00:00:00+08:00" start-time-utc="2025-08-16T16:00:00+00:00" end-time-utc="2025-08-17T16:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2025-08-16T16:49:00+00:00" time-local="2025-08-17T00:49:00+08:00">24</element>
+          <element start-time-local="2025-08-17T00:00:00+08:00" end-time-local="2025-08-18T00:00:00+08:00" start-time-utc="2025-08-16T16:00:00+00:00" end-time-utc="2025-08-17T16:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2025-08-16T16:49:00+00:00" time-local="2025-08-17T00:49:00+08:00">44</element>
+          <element start-time-local="2025-08-17T00:00:00+08:00" end-time-local="2025-08-18T00:00:00+08:00" start-time-utc="2025-08-16T16:00:00+00:00" end-time-utc="2025-08-17T16:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2025-08-16T16:49:00+00:00" time-local="2025-08-17T00:49:00+08:00">S</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="89512" bom-id="989512" tz="UTC" stn-name="NOVOLAZAREVSKAJA" stn-height="102.00" type="Non-AWS" lat="-70.7667" lon="11.8333" forecast-district-id="TAS_FA001" description="Novolazarevskaja">
+      <period index="0" time-utc="2025-08-17T06:00:00+00:00" time-local="2025-08-17T06:00:00+00:00" wind-src="synop">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">-30.8</element>
+          <element type="cloud">Cloudy</element>
+          <element units="m" type="cloud_base_m">600</element>
+          <element type="cloud_oktas">8</element>
+          <element type="cloud_type_id">37</element>
+          <element units="Celsius" type="air_temperature">-15.6</element>
+          <element units="Celsius" type="dew_point">-20.5</element>
+          <element units="hPa" type="pres">990.6</element>
+          <element units="hPa" type="msl_pres">990.6</element>
+          <element units="%" type="rel-humidity">66</element>
+          <element units="km" type="vis_km">20</element>
+          <element type="weather">Snow</element>
+          <element units="deg" type="wind_dir_deg">120</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="89532" bom-id="989532" tz="UTC" stn-name="SYOWA" stn-height="25.50" type="Non-AWS" lat="-69.0053" lon="39.5811" forecast-district-id="TAS_FA001" description="Syowa">
+      <period index="0" time-utc="2025-08-17T09:00:00+00:00" time-local="2025-08-17T09:00:00+00:00" wind-src="synop">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">-31.4</element>
+          <element units="Celsius" type="air_temperature">-26.4</element>
+          <element units="Celsius" type="dew_point">-29.4</element>
+          <element units="hPa" type="pres">988.8</element>
+          <element units="hPa" type="msl_pres">988.8</element>
+          <element units="%" type="rel-humidity">76</element>
+          <element type="wind_dir">SSW</element>
+          <element units="deg" type="wind_dir_deg">200</element>
+          <element units="km/h" type="wind_spd_kmh">6</element>
+          <element units="knots" type="wind_spd">3</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="94998" bom-id="300004" tz="Australia/Hobart" stn-name="MACQUARIE ISLAND" stn-height="6.00" type="AWS" lat="-54.4994" lon="158.9369" forecast-district-id="TAS_FA001" description="Macquarie Island">
+      <period index="0" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T21:30:00+10:00" wind-src="OMD">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">-5.0</element>
+          <element units="Celsius" type="delta_t">0.5</element>
+          <element units="km/h" type="gust_kmh">44</element>
+          <element units="knots" type="wind_gust_spd">24</element>
+          <element units="Celsius" type="air_temperature">4.0</element>
+          <element units="Celsius" type="dew_point">2.7</element>
+          <element units="hPa" type="pres">992.1</element>
+          <element units="hPa" type="msl_pres">992.1</element>
+          <element units="hPa" type="qnh_pres">991.8</element>
+          <element units="%" type="rel-humidity">91</element>
+          <element type="wind_dir">WNW</element>
+          <element units="deg" type="wind_dir_deg">300</element>
+          <element units="km/h" type="wind_spd_kmh">39</element>
+          <element units="knots" type="wind_spd">21</element>
+          <element start-time-local="2025-08-17T09:00:00+10:00" end-time-local="2025-08-17T21:31:00+10:00" duration="751" start-time-utc="2025-08-16T23:00:00+00:00" end-time-utc="2025-08-17T11:31:00+00:00" units="mm" type="rainfall">3.4</element>
+          <element start-time-local="2025-08-16T09:00:00+10:00" end-time-local="2025-08-17T09:00:00+10:00" duration="1440" start-time-utc="2025-08-15T23:00:00+00:00" end-time-utc="2025-08-16T23:00:00+00:00" units="mm" type="rainfall_24hr">3.2</element>
+          <element start-time-local="2025-08-17T06:00:00+10:00" end-time-local="2025-08-17T21:00:00+10:00" start-time-utc="2025-08-16T20:00:00+00:00" end-time-utc="2025-08-17T11:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2025-08-17T02:02:00+00:00" time-local="2025-08-17T12:02:00+10:00">5.1</element>
+          <element start-time-local="2025-08-17T18:00:00+10:00" end-time-local="2025-08-18T09:00:00+10:00" start-time-utc="2025-08-17T08:00:00+00:00" end-time-utc="2025-08-17T23:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2025-08-17T11:19:00+00:00" time-local="2025-08-17T21:19:00+10:00">3.5</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2025-08-17T11:04:00+00:00" time-local="2025-08-17T21:04:00+10:00">35</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2025-08-17T11:04:00+00:00" time-local="2025-08-17T21:04:00+10:00">65</element>
+          <element start-time-local="2025-08-17T00:00:00+10:00" end-time-local="2025-08-18T00:00:00+10:00" start-time-utc="2025-08-16T14:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2025-08-17T11:04:00+00:00" time-local="2025-08-17T21:04:00+10:00">NW</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="89571" bom-id="300000" tz="Australia/Davis" stn-name="DAVIS" stn-height="18.00" type="AWS" lat="-68.5744" lon="77.9672" forecast-district-id="TAS_FA001" description="Davis">
+      <period index="0" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T18:30:00+07:00" wind-src="OMD">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">-24.7</element>
+          <element type="cloud">Cloudy</element>
+          <element type="cloud_oktas">8</element>
+          <element units="km/h" type="gust_kmh">19</element>
+          <element units="knots" type="wind_gust_spd">10</element>
+          <element units="Celsius" type="air_temperature">-17.7</element>
+          <element units="Celsius" type="dew_point">-25.8</element>
+          <element units="hPa" type="pres">976.8</element>
+          <element units="hPa" type="msl_pres">976.8</element>
+          <element units="hPa" type="qnh_pres">976.5</element>
+          <element units="%" type="rel-humidity">49</element>
+          <element units="km" type="vis_km">58</element>
+          <element type="wind_dir">ENE</element>
+          <element units="deg" type="wind_dir_deg">61</element>
+          <element units="km/h" type="wind_spd_kmh">17</element>
+          <element units="knots" type="wind_spd">9</element>
+          <element start-time-local="2025-08-17T06:00:00+07:00" end-time-local="2025-08-17T21:00:00+07:00" start-time-utc="2025-08-16T23:00:00+00:00" end-time-utc="2025-08-17T14:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2025-08-17T00:05:00+00:00" time-local="2025-08-17T07:05:00+07:00">-17.3</element>
+          <element start-time-local="2025-08-17T18:00:00+07:00" end-time-local="2025-08-18T09:00:00+07:00" start-time-utc="2025-08-17T11:00:00+00:00" end-time-utc="2025-08-18T02:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2025-08-17T11:08:00+00:00" time-local="2025-08-17T18:08:00+07:00">-19.1</element>
+          <element start-time-local="2025-08-17T00:00:00+07:00" end-time-local="2025-08-18T00:00:00+07:00" start-time-utc="2025-08-16T17:00:00+00:00" end-time-utc="2025-08-17T17:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2025-08-17T05:00:00+00:00" time-local="2025-08-17T12:00:00+07:00">15</element>
+          <element start-time-local="2025-08-17T00:00:00+07:00" end-time-local="2025-08-18T00:00:00+07:00" start-time-utc="2025-08-16T17:00:00+00:00" end-time-utc="2025-08-17T17:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2025-08-17T05:00:00+00:00" time-local="2025-08-17T12:00:00+07:00">28</element>
+          <element start-time-local="2025-08-17T00:00:00+07:00" end-time-local="2025-08-18T00:00:00+07:00" start-time-utc="2025-08-16T17:00:00+00:00" end-time-utc="2025-08-17T17:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2025-08-17T05:00:00+00:00" time-local="2025-08-17T12:00:00+07:00">ENE</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="89642" bom-id="989642" tz="UTC" stn-name="DUMONT D URVILLE" stn-height="43.00" type="Non-AWS" lat="-66.6631" lon="140.0011" forecast-district-id="TAS_FA001" description="Dumont D'urville">
+      <period index="0" time-utc="2025-08-17T09:00:00+00:00" time-local="2025-08-17T09:00:00+00:00" wind-src="synop">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">-28.8</element>
+          <element type="cloud">Cloudy</element>
+          <element units="m" type="cloud_base_m">2000</element>
+          <element type="cloud_oktas">8</element>
+          <element type="cloud_type_id">35</element>
+          <element units="Celsius" type="air_temperature">-17.7</element>
+          <element units="Celsius" type="dew_point">-23.2</element>
+          <element units="hPa" type="pres">978.1</element>
+          <element units="hPa" type="msl_pres">978.1</element>
+          <element units="%" type="rel-humidity">62</element>
+          <element units="km" type="vis_km">4</element>
+          <element type="weather">Blowing snow</element>
+          <element type="wind_dir">SE</element>
+          <element units="deg" type="wind_dir_deg">140</element>
+          <element units="km/h" type="wind_spd_kmh">39</element>
+          <element units="knots" type="wind_spd">21</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="89564" bom-id="300001" tz="Australia/Mawson" stn-name="MAWSON" stn-height="9.90" type="AWS" lat="-67.6017" lon="62.8753" forecast-district-id="TAS_FA001" description="Mawson">
+      <period index="0" time-utc="2025-08-17T11:30:00+00:00" time-local="2025-08-17T17:30:00+06:00" wind-src="OMD">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">-35.0</element>
+          <element units="km/h" type="gust_kmh">61</element>
+          <element units="knots" type="wind_gust_spd">33</element>
+          <element units="Celsius" type="air_temperature">-20.3</element>
+          <element units="Celsius" type="dew_point">-31.2</element>
+          <element units="hPa" type="pres">980.8</element>
+          <element units="hPa" type="msl_pres">980.8</element>
+          <element units="hPa" type="qnh_pres">980.6</element>
+          <element units="%" type="rel-humidity">37</element>
+          <element type="wind_dir">SE</element>
+          <element units="deg" type="wind_dir_deg">130</element>
+          <element units="km/h" type="wind_spd_kmh">57</element>
+          <element units="knots" type="wind_spd">31</element>
+          <element start-time-local="2025-08-17T06:00:00+06:00" end-time-local="2025-08-17T21:00:00+06:00" start-time-utc="2025-08-17T00:00:00+00:00" end-time-utc="2025-08-17T15:00:00+00:00" units="Celsius" type="maximum_air_temperature" instance="running" time-utc="2025-08-17T07:01:00+00:00" time-local="2025-08-17T13:01:00+06:00">-18.3</element>
+          <element start-time-local="2025-08-16T18:00:00+06:00" end-time-local="2025-08-17T09:00:00+06:00" start-time-utc="2025-08-16T12:00:00+00:00" end-time-utc="2025-08-17T03:00:00+00:00" units="Celsius" type="minimum_air_temperature" instance="running" time-utc="2025-08-16T20:22:00+00:00" time-local="2025-08-17T02:22:00+06:00">-23.6</element>
+          <element start-time-local="2025-08-17T00:00:00+06:00" end-time-local="2025-08-18T00:00:00+06:00" start-time-utc="2025-08-16T18:00:00+00:00" end-time-utc="2025-08-17T18:00:00+00:00" units="knots" type="maximum_gust_spd" instance="running" time-utc="2025-08-16T20:24:00+00:00" time-local="2025-08-17T02:24:00+06:00">37</element>
+          <element start-time-local="2025-08-17T00:00:00+06:00" end-time-local="2025-08-18T00:00:00+06:00" start-time-utc="2025-08-16T18:00:00+00:00" end-time-utc="2025-08-17T18:00:00+00:00" units="km/h" type="maximum_gust_kmh" instance="running" time-utc="2025-08-16T20:24:00+00:00" time-local="2025-08-17T02:24:00+06:00">69</element>
+          <element start-time-local="2025-08-17T00:00:00+06:00" end-time-local="2025-08-18T00:00:00+06:00" start-time-utc="2025-08-16T18:00:00+00:00" end-time-utc="2025-08-17T18:00:00+00:00" type="maximum_gust_dir" instance="running" time-utc="2025-08-16T20:24:00+00:00" time-local="2025-08-17T02:24:00+06:00">SSE</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="89664" bom-id="989664" tz="UTC" stn-name="MCMURDO" stn-height="24.00" type="Non-AWS" lat="-77.8500" lon="166.6667" forecast-district-id="TAS_FA001" description="McMurdo">
+      <period index="0" time-utc="2025-08-17T06:00:00+00:00" time-local="2025-08-17T06:00:00+00:00" wind-src="synop">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">-28.0</element>
+          <element type="cloud">Cloudy</element>
+          <element units="m" type="cloud_base_m">1000</element>
+          <element type="cloud_oktas">8</element>
+          <element units="Celsius" type="air_temperature">-17.0</element>
+          <element units="Celsius" type="dew_point">-20.1</element>
+          <element units="hPa" type="pres">976.3</element>
+          <element units="hPa" type="msl_pres">976.3</element>
+          <element units="%" type="rel-humidity">77</element>
+          <element units="km" type="vis_km">6</element>
+          <element type="weather">Haze</element>
+          <element type="wind_dir">SE</element>
+          <element units="deg" type="wind_dir_deg">140</element>
+          <element units="km/h" type="wind_spd_kmh">39</element>
+          <element units="knots" type="wind_spd">21</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="89592" bom-id="989592" tz="UTC" stn-name="MIRNYJ" stn-height="35.00" type="Non-AWS" lat="-66.5500" lon="93.0167" forecast-district-id="TAS_FA001" description="Mirnyj">
+      <period index="0" time-utc="2025-08-17T06:00:00+00:00" time-local="2025-08-17T06:00:00+00:00" wind-src="synop">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">-29.3</element>
+          <element type="cloud">Cloudy</element>
+          <element units="m" type="cloud_base_m">600</element>
+          <element type="cloud_oktas">8</element>
+          <element type="cloud_type_id">35</element>
+          <element units="Celsius" type="air_temperature">-16.2</element>
+          <element units="Celsius" type="dew_point">-20.2</element>
+          <element units="hPa" type="pres">971.6</element>
+          <element units="hPa" type="msl_pres">971.6</element>
+          <element units="%" type="rel-humidity">71</element>
+          <element units="km" type="vis_km">20</element>
+          <element type="weather">Blowing snow</element>
+          <element type="wind_dir">ESE</element>
+          <element units="deg" type="wind_dir_deg">110</element>
+          <element units="km/h" type="wind_spd_kmh">50</element>
+          <element units="knots" type="wind_spd">27</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="99139" bom-id="250091" tz="Australia/Hobart" stn-name="TAS FIRE SERVICE PORTABLE C" stn-height="65.00" type="Non-AWS" lat="-41.2629" lon="148.2863" forecast-district-id="TAS_FA001" description="TFS C">
+      <period index="0" time-utc="2025-08-17T11:20:00+00:00" time-local="2025-08-17T21:20:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">1.0</element>
+          <element units="Celsius" type="air_temperature">5.2</element>
+          <element units="Celsius" type="dew_point">2.7</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">84</element>
+          <element start-time-local="2025-08-17T09:00:00+10:00" end-time-local="2025-08-17T21:20:00+10:00" duration="740" start-time-utc="2025-08-16T23:00:00+00:00" end-time-utc="2025-08-17T11:20:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2025-08-16T09:00:00+10:00" end-time-local="2025-08-17T09:00:00+10:00" duration="1440" start-time-utc="2025-08-15T23:00:00+00:00" end-time-utc="2025-08-16T23:00:00+00:00" units="mm" type="rainfall_24hr">0.0</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="99953" bom-id="250141" tz="Australia/Hobart" stn-name="PORTABLE TAS AWS 5 (TFS)" stn-height="208.00" type="AWS" lat="-42.0170" lon="147.4975" forecast-district-id="TAS_FA001" description="Ross (TFS)">
+      <period index="0" time-utc="2025-08-17T11:20:00+00:00" time-local="2025-08-17T21:20:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">2.2</element>
+          <element units="Celsius" type="delta_t">1.3</element>
+          <element units="km/h" type="gust_kmh">11</element>
+          <element units="knots" type="wind_gust_spd">6</element>
+          <element units="Celsius" type="air_temperature">5.5</element>
+          <element units="Celsius" type="dew_point">2.4</element>
+          <element units="hPa" type="pres">997.3</element>
+          <element units="hPa" type="qnh_pres">997.3</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">80</element>
+          <element type="wind_dir">S</element>
+          <element units="deg" type="wind_dir_deg">180</element>
+          <element units="km/h" type="wind_spd_kmh">9</element>
+          <element units="knots" type="wind_spd">5</element>
+          <element start-time-local="2025-08-17T09:00:00+10:00" end-time-local="2025-08-17T21:20:00+10:00" duration="740" start-time-utc="2025-08-16T23:00:00+00:00" end-time-utc="2025-08-17T11:20:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2025-08-16T09:00:00+10:00" end-time-local="2025-08-17T09:00:00+10:00" duration="1440" start-time-utc="2025-08-15T23:00:00+00:00" end-time-utc="2025-08-16T23:00:00+00:00" units="mm" type="rainfall_24hr">0.0</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="99954" bom-id="250142" tz="Australia/Hobart" stn-name="PORTABLE TAS AWS 6 (TFS)" stn-height="253.00" type="AWS" lat="-41.4480" lon="145.5351" forecast-district-id="TAS_FA001" description="Waratah (TFS)">
+      <period index="0" time-utc="2025-08-17T11:20:00+00:00" time-local="2025-08-17T21:20:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">-2.5</element>
+          <element units="Celsius" type="delta_t">0.3</element>
+          <element units="km/h" type="gust_kmh">13</element>
+          <element units="knots" type="wind_gust_spd">7</element>
+          <element units="Celsius" type="air_temperature">1.5</element>
+          <element units="Celsius" type="dew_point">0.8</element>
+          <element units="hPa" type="pres">949.4</element>
+          <element units="hPa" type="qnh_pres">949.4</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">95</element>
+          <element type="wind_dir">S</element>
+          <element units="deg" type="wind_dir_deg">170</element>
+          <element units="km/h" type="wind_spd_kmh">11</element>
+          <element units="knots" type="wind_spd">6</element>
+          <element start-time-local="2025-08-17T09:00:00+10:00" end-time-local="2025-08-17T21:20:00+10:00" duration="740" start-time-utc="2025-08-16T23:00:00+00:00" end-time-utc="2025-08-17T11:20:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2025-08-16T09:00:00+10:00" end-time-local="2025-08-17T09:00:00+10:00" duration="1440" start-time-utc="2025-08-15T23:00:00+00:00" end-time-utc="2025-08-16T23:00:00+00:00" units="mm" type="rainfall_24hr">8.2</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="99140" bom-id="250092" tz="Australia/Hobart" stn-name="TAS PARKS WILDLIFE PORTABLE A" stn-height="323.00" type="Non-AWS" lat="-41.7080" lon="145.2269" forecast-district-id="TAS_FA001" description="PWS A">
+      <period index="0" time-utc="2025-08-17T11:20:00+00:00" time-local="2025-08-17T21:20:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">0.6</element>
+          <element units="Celsius" type="air_temperature">2.8</element>
+          <element units="Celsius" type="dew_point">1.2</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">89</element>
+          <element start-time-local="2025-08-17T09:00:00+10:00" end-time-local="2025-08-17T21:20:00+10:00" duration="740" start-time-utc="2025-08-16T23:00:00+00:00" end-time-utc="2025-08-17T11:20:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2025-08-16T09:00:00+10:00" end-time-local="2025-08-17T09:00:00+10:00" duration="1440" start-time-utc="2025-08-15T23:00:00+00:00" end-time-utc="2025-08-16T23:00:00+00:00" units="mm" type="rainfall_24hr">5.8</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="99141" bom-id="250093" tz="Australia/Hobart" stn-name="TAS PARKS WILDLIFE PORTABLE B" stn-height="35.00" type="Non-AWS" lat="-43.1471" lon="147.9934" forecast-district-id="TAS_FA001" description="PWS B">
+      <period index="0" time-utc="2025-08-17T11:00:00+00:00" time-local="2025-08-17T21:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">0.6</element>
+          <element units="Celsius" type="air_temperature">5.5</element>
+          <element units="Celsius" type="dew_point">4.1</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">91</element>
+          <element start-time-local="2025-08-17T09:00:00+10:00" end-time-local="2025-08-17T21:00:00+10:00" duration="720" start-time-utc="2025-08-16T23:00:00+00:00" end-time-utc="2025-08-17T11:00:00+00:00" units="mm" type="rainfall">0.0</element>
+          <element start-time-local="2025-08-16T09:00:00+10:00" end-time-local="2025-08-17T09:00:00+10:00" duration="1440" start-time-utc="2025-08-15T23:00:00+00:00" end-time-utc="2025-08-16T23:00:00+00:00" units="mm" type="rainfall_24hr">0.0</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="99142" bom-id="250094" tz="Australia/Hobart" stn-name="TAS PARKS WILDLIFE PORTABLE C" stn-height="25.00" type="Non-AWS" lat="-43.4167" lon="146.1509" forecast-district-id="TAS_FA001" description="PWS C">
+      <period index="0" time-utc="2025-08-17T11:00:00+00:00" time-local="2025-08-17T21:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">2.1</element>
+          <element units="Celsius" type="delta_t">0.7</element>
+          <element units="km/h" type="gust_kmh">11</element>
+          <element units="knots" type="wind_gust_spd">6</element>
+          <element units="Celsius" type="air_temperature">4.9</element>
+          <element units="Celsius" type="dew_point">3.1</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">88</element>
+          <element type="wind_dir">S</element>
+          <element units="deg" type="wind_dir_deg">170</element>
+          <element units="km/h" type="wind_spd_kmh">7</element>
+          <element units="knots" type="wind_spd">4</element>
+          <element start-time-local="2025-08-17T09:00:00+10:00" end-time-local="2025-08-17T21:00:00+10:00" duration="720" start-time-utc="2025-08-16T23:00:00+00:00" end-time-utc="2025-08-17T11:00:00+00:00" units="mm" type="rainfall">0.8</element>
+          <element start-time-local="2025-08-16T09:00:00+10:00" end-time-local="2025-08-17T09:00:00+10:00" duration="1440" start-time-utc="2025-08-15T23:00:00+00:00" end-time-utc="2025-08-16T23:00:00+00:00" units="mm" type="rainfall_24hr">7.0</element>
+        </level>
+      </perio
