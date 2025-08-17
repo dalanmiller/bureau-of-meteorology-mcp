@@ -18,20 +18,25 @@ jobs:
         with:
           python-version: '3.13'
 
+      - name: Setup uv
+        uses: astral-sh/setup-uv@v3
+        with:
+          enable-cache: true
+          # Use pyproject.toml to seed cache; uv.lock may be absent on some branches
+          cache-dependency-glob: pyproject.toml
+
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
-          pip install -e .[dev]
+          uv sync --extra dev
 
       - name: Ruff Lint
         run: |
-          ruff check
+          uv run -q ruff check
 
       - name: Ruff Format Check
         run: |
-          ruff format --check
+          uv run -q ruff format --check
 
       - name: Run tests
         run: |
-          pytest -q
-
+          uv run -q pytest -q

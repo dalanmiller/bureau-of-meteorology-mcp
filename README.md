@@ -4,7 +4,7 @@ Tools for an MCP (Model Context Protocol) server that exposes Australian Bureau 
 
 Quick start
 - Ensure Python >= 3.13 and `uv` are installed.
-- Install: `uv sync` (or `pip install -e .[dev]`).
+- Install: `uv sync --extra dev` (or `pip install -e .[dev]`).
 - Lint/format: `ruff check --fix && ruff format`.
 - Run tests: `pytest -q`.
 - Run FastMCP (stdio): `scripts/run-fastmcp.sh --stdio`.

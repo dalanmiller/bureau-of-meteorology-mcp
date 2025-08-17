@@ -11,7 +11,7 @@
   - `assets/`
 
 ## Build, Test, and Development Commands
-- Install deps: `uv sync` (or `pip install -e .[dev]`).
+- Install deps: `uv sync --extra dev` (or `pip install -e .[dev]`).
 - Lint: `ruff check`; format: `ruff format`.
 - Tests: `pytest -q` (offline; FTP is mocked with `examples/`).
 - FastMCP stdio: `scripts/run-fastmcp.sh --stdio` (default if no flag provided).
